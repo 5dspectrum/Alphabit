@@ -54,7 +54,7 @@ hr.redline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:
 hr.whiteline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:solid 2px #FFFFFF;}
 
 section.howwedo {background-color:#000;color:#FFF;}
-section.howwedo h2 {font-size:30px;color:#000;text-shadow: -1px 0 #B30838, 0 1px #B30838, 1px 0 #B30838, 0 -1px #B30838;text-align:left;font-size:45px;letter-spacing:3px;font-weight:700}
+section.howwedo h2 {font-size:38px;color:#000;text-shadow: -1px 0 #B30838, 0 1px #B30838, 1px 0 #B30838, 0 -1px #B30838;text-align:left;letter-spacing:3px;font-weight:700}
 section.management {}
 section.members {background-color:#000;color:#FFF;}
 section.members {color:#000;text-align:left;letter-spacing:3px;}
