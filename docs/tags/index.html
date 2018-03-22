@@ -7,7 +7,7 @@
 
 	<title>Tags</title>
 
-	<link rel="shortcut icon" href="images/favicon-32x32.png">
+	<link rel="shortcut icon" href="/images/favicon-32x32.png">
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 			</div>
 			<div class="logo-wrap">
 				<div class="container text-center">
-					<img src="images/alphabit-logo.png" alt="" class="site-logo"/>
+					<a href="/"><img src="/images/alphabit-logo.png" alt="" class="site-logo"/></a>
 					
 					<button type="button" class="navbar-toggle visible-xs pull-left">
 						<span class="icon-bar"></span>
@@ -83,7 +83,7 @@
 			
 			<div class="footer-social">
 				<p>CONNECT WITH US</p>
-				<p><a href="#"><img src="images/social-fb.png" alt="Facebook"/></a> <a href="#"><img src="images/social-twitter.png" alt="Facebook"/></a> <a href="#"><img src="images/social-in.png" alt="Facebook"/></a> </p>
+				<p><a href="https://www.facebook.com/"><img src="/images/social-fb.png" alt="Facebook"/></a> <a href="https://www.twitter.com/"><img src="/images/social-twitter.png" alt="Twitter"/></a> <a href="https://www.linkedin.com/"><img src="/images/social-in.png" alt="Linkedin"/></a> </p>
 				<p class="email">INFOR@ALPHABIT.FUND</p>
 			</div>
 			<div class="footer-bottom">
@@ -128,10 +128,15 @@
 		$(document).ready(function(){
 			$("nav a").click(function(event){     
 				event.preventDefault();
-				var pos = parseInt($(this.hash).offset().top) - 140;
-				$('html,body').animate({scrollTop:pos}, 500);
+				
+				var pos = parseInt($(this.hash).offset().top);
+				
+				$('html,body').animate({scrollTop:pos-140}, 500);
+				if($(window).width() < 768){
+					$('.close-nav').click();
+				}
+				
 			});
-		
 		})
 	
 	</script>
