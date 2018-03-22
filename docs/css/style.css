@@ -26,6 +26,7 @@ p {margin-bottom:25px;}
 .navbar-toggle:hover {transition:all 1200ms;border:solid 1px #000;box-shadow:0 0 6px rgba(0,0,0,0.7);}
 .navbar-toggle > span:first-child {margin-top:0;}
 nav.main-nav {margin-bottom:10px;display:none;}
+body.fixed-header {padding-top:180px;}
 .fixed-header #main-header {display:block;}
 .main-nav .close-nav {display:none;}
 .main-banner > video {display:block;width:100%;height:auto;margin:0;border:0;padding:0;height:100%}

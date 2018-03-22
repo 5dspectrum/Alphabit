@@ -17,53 +17,53 @@
 </head>
 <body>
 <div class="wrap">
-	<header id="main-header">
-		<div class="topbar">
-			<div class="container clearfix">
-				<div class="pull-left hidden-xs">We outperform Bitcoin, and we do it with less risk</div>
-				<div class="pull-right">1.800.000.000</div>
-			</div>
-		</div>
-		<div class="logo-wrap">
-			<div class="container text-center">
-				<img src="images/alphabit-logo.png" alt="" class="site-logo"/>
-				
-				<button type="button" class="navbar-toggle visible-xs pull-left">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-		</div>
-		
-		<nav class="main-nav">
-			<div class="main-menu">
-				<a class="close-nav" href="#">&times;</a>
-				<div class="container">
-					<ul>
-						<li><a href="#">OUR PHILOSOPHY</a></li>
-						<li><a href="#">THE STRATEGY</a></li>
-						<li><a href="#">TEAM MEMBERS</a></li>
-						<li><a href="#">GET IN TOUCH</a></li>
-					</ul>
+	<header id="main-header" class="clearfix">
+		<div>
+			<div class="topbar">
+				<div class="container clearfix">
+					<div class="pull-left hidden-xs">We outperform Bitcoin, and we do it with less risk</div>
+					<div class="pull-right">1.800.000.000</div>
 				</div>
 			</div>
-		</nav>
-		
+			<div class="logo-wrap">
+				<div class="container text-center">
+					<img src="images/alphabit-logo.png" alt="" class="site-logo"/>
+					
+					<button type="button" class="navbar-toggle visible-xs pull-left">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</div>
+			
+			<nav class="main-nav">
+				<div class="main-menu">
+					<a class="close-nav" href="#">&times;</a>
+					<div class="container">
+						<ul>
+							<li><a href="#philosophy">OUR PHILOSOPHY</a></li>
+							<li><a href="#strategy">THE STRATEGY</a></li>
+							<li><a href="#members">TEAM MEMBERS</a></li>
+							<li><a href="#contact">GET IN TOUCH</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 	</header>
 
 
 	<div class="main-content">
 
 			<section class="main-banner">
-				 <video autoplay loop>
-				  <source src="videos/AlphabitAnimation.mp4" type="video/mp4">
-				  <source src="videos/AlphabitAnimation.ogg" type="video/ogg">
+				 <video autoplay loop muted>
+				  <source src="videos/AlphabitAnimation-tiny.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 				</video> 
 			</section>
 			
-			<section class="content">
+			<section class="content" id="philosophy">
 				<div class="container">
 					<div class="home-philosophy">
 						<h2>ALPHABIT PHILOSOPHY</h2>
@@ -73,7 +73,7 @@
 				</div>
 			</section>
 			
-			<section class="howwedo content arrowed">
+			<section class="howwedo content arrowed" id="strategy">
 				<div class="container">
 					<div class="home-howwedo">
 						<h2>WE OUTPERFORM BITCOIN,<br/>AND WE DO IT WITH LESS RISK.</h2>
@@ -198,7 +198,7 @@
 					
 			</section>
 			
-			<section class="members arrowed">
+			<section class="members arrowed" id="members">
 				<div class="content container">
 					<div class="home-members">
 						<h2>TEAM MEMBERS</h2>
@@ -346,6 +346,15 @@
 		sr.reveal('.home-management');
 		sr.reveal('.investment-process > *');
 		sr.reveal('.home-members');
+		
+		$(document).ready(function(){
+			$("nav a").click(function(event){     
+				event.preventDefault();
+				var pos = parseInt($(this.hash).offset().top) - 140;
+				$('html,body').animate({scrollTop:pos}, 500);
+			});
+		
+		})
 	
 	</script>
 </body>

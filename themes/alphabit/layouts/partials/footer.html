@@ -5,7 +5,7 @@
 			
 			<div class="footer-social">
 				<p>CONNECT WITH US</p>
-				<p><a href="#"><img src="images/social-fb.png" alt="Facebook"/></a> <a href="#"><img src="images/social-twitter.png" alt="Facebook"/></a> <a href="#"><img src="images/social-in.png" alt="Facebook"/></a> </p>
+				<p><a href="{{ .Site.Params.social.facebook.url }}"><img src="/images/social-fb.png" alt="Facebook"/></a> <a href="{{ .Site.Params.social.twitter.url }}"><img src="/images/social-twitter.png" alt="Twitter"/></a> <a href="{{ .Site.Params.social.in.url }}"><img src="/images/social-in.png" alt="Linkedin"/></a> </p>
 				<p class="email">INFOR@ALPHABIT.FUND</p>
 			</div>
 			<div class="footer-bottom">
@@ -23,11 +23,11 @@
 </div>
 
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/flexslider.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/flexslider.min.js"></script>
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="{{ .Site.BaseURL }}js/scripts.js"></script>
 	<script>
 		$(window).load(function() {
 		  $('.flexslider').flexslider({
@@ -46,6 +46,20 @@
 		sr.reveal('.home-management');
 		sr.reveal('.investment-process > *');
 		sr.reveal('.home-members');
+		
+		$(document).ready(function(){
+			$("nav a").click(function(event){     
+				event.preventDefault();
+				
+				var pos = parseInt($(this.hash).offset().top);
+				
+				$('html,body').animate({scrollTop:pos-140}, 500);
+				if($(window).width() < 768){
+					$('.close-nav').click();
+				}
+				
+			});
+		})
 	
 	</script>
 </body>

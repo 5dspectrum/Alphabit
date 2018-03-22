@@ -28,7 +28,6 @@ $(document).ready(function($) {
 	$('a.close-member').click(function(e){
 		e.preventDefault();
 		$('#member-info').fadeOut(1000);
-		
 	})
 
 	/* Back to top link */
