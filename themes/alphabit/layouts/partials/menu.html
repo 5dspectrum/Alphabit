@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                {{ range .Site.Menus.main }}
+                <li>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{end}}
+            </ul>
+
+        </div>
+    </div>
+</nav>
