@@ -53,7 +53,7 @@
 		</div>
 		<div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 		  <div class="panel-body">
-			<a class="close-panel" role="button" data-toggle="collapse" href="#collapse0" >&times;</a>
+			<a class="close-panel" role="button" data-toggle="collapse" href="#collapse0" ><span class="glyphicon glyphicon-remove-circle"></a>
 			<div class="inner-content">
 				<h3>MANUAL TRADING</h3>
 				<p>Manual trading is what Alphabit does, day in, day out buying and selling altcoins with a view to generating strong returns. These positions maybe strategic, longer term plays and stay in the portfolio overweight for a prolonged period of time, or may be traded, buy in one day, and sell out the next day in order to capitalize on the favourable volatility of a token relative to bitcoin. </p>
@@ -71,7 +71,7 @@
     </div>
     <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
-		<a class="close-panel" role="button" data-toggle="collapse" href="#collapse1" >&times;</a>
+		<a class="close-panel" role="button" data-toggle="collapse" href="#collapse1" ><span class="glyphicon glyphicon-remove-circle"></a>
         <div class="inner-content">
 			<h3>ALGORITHMIC TRADING</h3>
 			<p>Algo-trading generates alpha for the company broadly through two main avenues. The first is by arbitraging varying prices across various different exchanges. We use arbitrage across Kraken, Bittrex, Coinfloor, and Gemini. </p>
@@ -90,7 +90,7 @@
     </div>
     <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
-		<a class="close-panel" data-toggle="collapse" href="#collapse2">&times;</a>
+		<a class="close-panel" data-toggle="collapse" href="#collapse2"><span class="glyphicon glyphicon-remove-circle"></a>
         <div class="inner-content">
 			<h3>TOKENISED STARTUP INVESTMENTS</h3>
 			<p>Alphabit has a team of highly experienced cryptographic currency investors. We scour the whole of the playing field to identify great companies, great teams, and profitable business models. Once these opportunities are identified, then we take a position, always at the most favourable terms for any investor within the company.  Examples of investments to date are SKY Coin, MetalPay, Nukleus Vision, Aelf, Data, VideoCoin, and more. </p>
@@ -109,7 +109,7 @@
     </div>
     <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-		<a class="close-panel" data-toggle="collapse" href="#collapse3">&times;</a>
+		<a class="close-panel" data-toggle="collapse" href="#collapse3"><span class="glyphicon glyphicon-remove-circle"></a>
 		<div class="inner-content">
 			<h3>FUTURES</h3>
 			<p>Alphabit uses futures positions through the CME to hedge the portfolio position, and reduce downside volatility of the portfolio itseslf. The fund has the mandate to either buy or sell positions, so the fund may increase/decrease its leverage should it wish by up to 2.5X of the portfolio allocation to the Futures account. </p>
@@ -128,7 +128,7 @@
     </div>
     <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-		<a class="close-panel" data-toggle="collapse" href="#collapse4">&times;</a>
+		<a class="close-panel" data-toggle="collapse" href="#collapse4"><span class="glyphicon glyphicon-remove-circle"></a>
         <div class="inner-content">
 			<h3>CASH MANAGEMENT</h3>
 			<p>Alphabit uses cash to dampen the volatility of the portfolio from time to time. The fund has a mandate to go up to 50% cash should it wish, further adding downside protection for its limited partners. </p>
@@ -151,72 +151,18 @@
 						<div class="members-wrap">
 							<div class="flexslider">
 							  <ul class="slides">
+							  
+							  {{ range .Site.Data.teammembers }}
 								<li>
 								  <div>
-									<a href="#">
-										<img src="images/Liam-Robertson.jpg" class="img-circle"/>
-										<h4>LIAM ROBERTSON</h4>
-										<h5>Chief Executive Officer</h5>
+									<a href="#" data-value="{}" data-name="{{ .name }}" data-position="{{ .position }}" data-email="{{ .email }}" data-mobile="{{ .mobile_number }}" data-office="{{ .office_number }}" data-about="{{ .about }}" class="member-showInfo">
+										<img src="{{ .Site.BaseURL }}{{ .image }}" class="img-circle"/>
+										<h4 class="name">{{ .name }}</h4>
+										<h5 class="position">{{ .position }}</h5>
 									</a>
 								  </div>
 								</li>
-								<li>
-								<li>
-								  <div>
-									<a href="#">
-										<img src="images/Liam-Robertson.jpg" class="img-circle"/>
-										<h4>CHRIS KITZE </h4>
-										<h5>Chairman</h5>
-									</a>
-								  </div>
-								</li>
-								<li>
-								  <div>
-									<a href="#">
-										<img src="images/Liam-Robertson.jpg" class="img-circle"/>
-										<h4>ANDREW IVISON</h4>
-										<h5>Chief Operating Officer</h5>
-									</a>
-								  </div>
-								</li>
-								<li>
-								  <div>
-									<a href="#">
-										<img src="images/Liam-Robertson.jpg" class="img-circle"/>
-										<h4>Anandaprabu Rajendran </h4>
-										<h5>Head of trading </h5>
-									</a>
-								  </div>
-								</li>
-								<li>
-								  <div>
-									<a href="#">
-										<img src="images/Liam-Robertson.jpg" class="img-circle"/>
-										<h4>Brad Mills </h4>
-										<h5>Advisor</h5>
-									</a>
-								  </div>
-								</li>
-								<li>
-								  <div>
-									<a href="#">
-										<img src="images/Liam-Robertson.jpg" class="img-circle"/>
-										<h4>Seth Shapiro </h4>
-										<h5>Advisor</h5>
-									</a>
-								  </div>
-								</li>
-								
-								<li>
-								  <div>
-									<a href="#">
-										<img src="images/Liam-Robertson.jpg" class="img-circle"/>
-										<h4>Michael Terpin </h4>
-										<h5>Advisor</h5>
-									</a>
-								  </div>
-								</li>
-								
+							  {{ end }}
 							  </ul>
 							</div>
 						</div>
@@ -232,15 +178,15 @@
 					<div class="container content">
 						<div class="member-info-img">
 							<div class="img-wrap">
-								<img src="images/Liam-Robertson.jpg" class="img-circle img-responsive"/>
+								<img src="{{ .Site.BaseURL }}images/liam-robertson.jpg" class="info-picture img-circle img-responsive"/>
 							</div>
 							<div class="name-wrap">
-								<h3>LIAM ROBERTSON / Chief Executive Officer</h3>
-								<p class="info-email">LIAM@ALPHABIT.FUND</p>
-								<p class="info-contact">M:  000.000.0000  /  O: 000.000.0000</p>
+								<h3><span class="info-name">LIAM ROBERTSON</span> / <span class="info-position">Chief Executive Officer</span></h3>
+								<p><span class="info-email">LIAM@ALPHABIT.FUND</span></p>
+								<p>M: <span class="info-mobile">000.000.0000</span>  /  O: <span class="info-office">000.000.0000</span></p>
 							</div>
 						</div>
-						<div class="member-info-data">
+						<div class="info-about">
 							<p>Chartered Financial Analyst (CFA) and Chartered Alternative Investment Analyst (CAIA), Liam holds a degree in Economics from the University of Newcastle-Upon-Tyne. He also holds a Masters in Finance from the University of Durham.</p>
 							
 							<p>Starting as a Portfolio Manager for UK-based IFA company, Liam quickly moved up to Analyst at a London-based Fund of Investment Trusts. </p>

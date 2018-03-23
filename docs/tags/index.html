@@ -38,7 +38,7 @@
 			
 			<nav class="main-nav">
 				<div class="main-menu">
-					<a class="close-nav" href="#">&times;</a>
+					<a class="close-nav" href="#"><span class="glyphicon glyphicon-remove-circle"></span></a>
 					<div class="container">
 						<ul>
 							<li><a href="#philosophy">OUR PHILOSOPHY</a></li>
@@ -137,8 +137,21 @@
 				}
 				
 			});
+			
+			$('.member-showInfo').click(function(e){
+				t = $(this);
+				e.preventDefault();
+				$("#member-info").hide().fadeIn(1200);
+				
+				$('.member-info .info-picture').attr('src',$(this).find('img.img-circle').attr('src'));
+				$('.member-info .info-name').html(t.data('name'));
+				$('.member-info .info-position').html(t.data('position'));
+				$('.member-info .info-email').html(t.data('email'));
+				$('.member-info .info-mobile').html(t.data('mobile'));
+				$('.member-info .info-office').html(t.data('office'));
+				$('.member-info .info-about').html(t.data('about'));
+			})
 		})
-	
 	</script>
 </body>
 </html>

@@ -7,34 +7,29 @@ publishDir = "docs"
 [params]
     name = ""
     description = ""
-    email = ""
-    phone = ""
-    address = ""
-    year = ""
-    background = ""
-    favicon = "images/gt_favicon.png"
+	phone = "1.800.000.001"
+    favicon = "images/favicon-32x32.png"
     DateForm = ""
 
-    showSubheader = true
-    showServices = true
-    showRecentWorks = true
-    showDownload = true
-    showClients = true
-
-    footerEnableContact = true
-    footerEnableFollowme = true
-    footerEnableTextWidget = true
-    footerEnableFormWidget = true
-
 [[menu.main]]
-    name = "home"
-    url = "/"
+    name = "Our Philisophy"
+    url = "/#philisophy"
     weight = 1
 [[menu.main]]
-    name = "blog"
-    url = "/post/"
-    weight = 5
+    name = "The Strategy"
+    url = "/#strategy"
+    weight = 2
+[[menu.main]]
+	name = "Team Members"
+	url = "/#members"
+	weight = 3
 
+[[menu.main]]
+	name = "Get In Touch"
+	url = "/#contact"
+	weight = 4
+
+	
 [params.google.analytics]
     trackerID = "GA-000000000-0"
 

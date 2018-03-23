@@ -10,11 +10,11 @@
 			</div>
 			<div class="footer-bottom">
 				<div class="footer-disclaimer">
-					<a href="#">DISCLAIMERS</a>
+					<a href="{{ .Site.BaseURL }}disclaimers/">DISCLAIMERS</a>
 				</div>
 				
 				<div class="footer-info">
-					<a href="#">ADDITIONAL INFO</a>
+					<a href="{{ .Site.BaseURL }}additional-info/">ADDITIONAL INFO</a>
 				</div>
 			</div>
 		</div>
@@ -59,8 +59,22 @@
 				}
 				
 			});
+			
+			$('.member-showInfo').click(function(e){
+				t = $(this);
+				e.preventDefault();
+				
+				$("#member-info").hide().fadeIn(200,function(){$('html,body').animate({scrollTop:parseInt($('#member-info').offset().top - 100)}, 500);});
+				
+				$('.member-info .info-picture').attr('src',$(this).find('img.img-circle').attr('src'));
+				$('.member-info .info-name').html(t.data('name'));
+				$('.member-info .info-position').html(t.data('position'));
+				$('.member-info .info-email').html(t.data('email'));
+				$('.member-info .info-mobile').html(t.data('mobile'));
+				$('.member-info .info-office').html(t.data('office'));
+				$('.member-info .info-about').html(t.data('about'));
+			})
 		})
-	
 	</script>
 </body>
 </html>

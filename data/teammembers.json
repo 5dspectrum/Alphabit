@@ -1,0 +1,86 @@
+[
+    {
+        "id": 0,
+        "name": "Liam Robertson",
+		"position": "Chief Executive Office",
+		"email": "liam@alphabit.com",
+        "image": "images/liam-robertson.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>Chartered Financial Analyst (CFA) and Chartered Alternative Investment Analyst (CAIA), Liam holds a degree in Economics from the University of Newcastle-Upon-Tyne. He also holds a Masters in Finance from the University of Durham.<br/><br/>Starting as a Portfolio Manager for UK-based IFA company, Liam quickly moved up to Analyst at a London-based Fund of Investment Trusts.<br/><br/>He has sat on the Yen desk for Light Peak Capital and a Hedge Fund, successfully trading Euros, Yen and Dollar Yen. After successfully increasing his book ve-fold in 18 months, he moved back to private client wealth management.</p>"
+    },
+	
+	{
+        "id": 1,
+        "name": "Chris Kitze",
+		"position": "Chairman",
+		"email": "chris@alphabit.com",
+        "image": "images/chris-kitze.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>Chris is a serial entrepreneur who has created companies with over $7Bn of market capitalization during his 25-year career.<br/><br/>He has been part of the Lycos’ IPO team, was founder and CEO of Xoom.com (IPO: 1998), and was CEO of NBCi, formed by the merger of Xoom.com and Snap.com, in addition to other companies in digital media and payments, such as Wine.com and Unseen.<br/><br/>Chris is currently working on several blockchain related projects, safe.cash and flashcoin.io.</p>"
+    },
+	
+	{
+        "id": 2,
+        "name": "Andrew Ivison",
+		"position": "Chair Operating Officer",
+		"email": "andrew@alphabit.com",
+        "image": "images/blank-thumbnail.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>Andrew has extensive experience of providing cost and schedule control for $ multimillion projects. He uses this knowledge to develop and offer leadership around organizational strategies, policies and practices.<br/><br/>An early enthusiast of digital currencies, Andrew has closely monitored and traded in these markets, gaining a wealth of knowledge relating to cryptocurrencies, and the key concepts and technology that underpins them. </p>"
+    },
+	
+	{
+        "id": 3,
+        "name": "Anandapruba Rajendran",
+		"position": "Head of Trading",
+		"email": "anandapruba@alphabit.com",
+        "image": "images/anandaprabu-rajendran.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>Graduating in commerce, Anand was aware of digital currency from its inception.<br/><br/>Since then he has enjoyed tremendous success with both the mining and trading of cryptocurrencies, and is the provider of liquidity for all of India’s Bitcoin exchanges. <br/><br/>This success has enabled Anand to co-found two impressive bitcoin related companies, most notably Coinsburg, another digital currency asset management firm which is going from strength to strength.</p>"
+    },
+	
+	{
+        "id": 4,
+        "name": "Brad Mills",
+		"position": "Advisor",
+		"email": "brad@alphabit.com",
+        "image": "images/brad-mills.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>A bitcoin evangelist and algorithmic trader, Brad has been in the blockchain technology space since 2011.<br/><br/>Before this, Brad was a pioneer in the social gaming space, managing virtual economies for Facebook, and iOS games with millions of users.<br/><br/>Brad Mills is an extremely well-known face in the digital Currency space, and with his partners has developed quantitative algorithmic trading strategies for traditional markets and cryptocurrency trading. He serves as advisor to the ICO portfolio team, himself holding more than 100 different currencies. </p>"
+    },
+	
+	{
+        "id": 5,
+        "name": "Seth Shapiro",
+		"position": "Advisor",
+		"email": "seth@alphabit.com",
+        "image": "images/seth-shapiro.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>Leading advisor to companies including Disney, Comcast, DIRECTV, Intel, AT&T, Interpublic Group, Showtime, RTL, Telstra, Universal, Goldman Sachs.<br/><br/>Quoted in The Economist, The New York Times. The LA Times, CNBC, The Boston Globe, Bloomberg, The Associated Press, PBS, The Daily Mail.<br/><br/>Head of Strategy at VideoCoin;  Governor at the Television Academy: Adjunct Professor at USC; Chairman at www.VRARProject.com; Two-time Emmy® Award winner.</p>"
+    },
+	
+	{
+        "id": 6,
+        "name": "Michael Terpin",
+		"position": "Advisor",
+		"email": "michael@alphabit.com",
+        "image": "images/blank-thumbnail.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>Michael is one of the most visible investors in the digital asset sector. In 2013, he co-founded BitAngels, the world’s first angel network for digital currency investments. <br/><br/>Terpin is considered the top marketer in the digital currency sector, having worked with more than 100 blockchain companies and coins as an advisor or through his agency, Transform Group. <br/><br/>Terpin is also an investor and advisor to many blockchain, media and technology companies, including GoCoin, Purse.io and ShapeShift.</p>"
+    }
+	
+]

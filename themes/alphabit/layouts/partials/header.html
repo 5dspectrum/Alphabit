@@ -5,14 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 
-	<title>{{ .Title }}</title>
+	<title>{{ .Site.Title }} - {{ .Title }}</title>
 
-	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon-32x32.png">
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{ .Site.BaseURL }}css/flexslider.css" rel="stylesheet">
 	<link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
+	
+	{{ partial "analyticstracking.html" . }}
 </head>
 <body>
 <div class="wrap">
@@ -21,7 +23,7 @@
 			<div class="topbar">
 				<div class="container clearfix">
 					<div class="pull-left hidden-xs">We outperform Bitcoin, and we do it with less risk</div>
-					<div class="pull-right">1.800.000.000</div>
+					<div class="pull-right"><a class="top-callto" href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></div>
 				</div>
 			</div>
 			<div class="logo-wrap">
@@ -41,10 +43,10 @@
 					<a class="close-nav" href="#"><span class="glyphicon glyphicon-remove-circle"></span></a>
 					<div class="container">
 						<ul>
-							<li><a href="#philosophy">OUR PHILOSOPHY</a></li>
-							<li><a href="#strategy">THE STRATEGY</a></li>
-							<li><a href="#members">TEAM MEMBERS</a></li>
-							<li><a href="#contact">GET IN TOUCH</a></li>
+							<li><a href="{{ .Site.BaseURL }}#philosophy">OUR PHILOSOPHY</a></li>
+							<li><a href="{{ .Site.BaseURL }}#strategy">THE STRATEGY</a></li>
+							<li><a href="{{ .Site.BaseURL }}#members">TEAM MEMBERS</a></li>
+							<li><a href="{{ .Site.BaseURL }}#contact">GET IN TOUCH</a></li>
 						</ul>
 					</div>
 				</div>
