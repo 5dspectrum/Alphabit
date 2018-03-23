@@ -30,6 +30,8 @@ nav.main-nav {margin-bottom:10px;display:none;}
 .fixed-header #main-header {display:block;}
 .main-nav .close-nav {display:none;}
 .main-banner > video {display:block;width:100%;height:auto;margin:0;border:0;padding:0;height:100%}
+.top-callto {color:#FFF;}
+.top-callto:hover,.top-callto:focus {text-decoration:none;color:#B30838;text-shadow:-1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF}
 
 .mobile-nav {}
 .mobile-nav .main-nav {display:block;}
