@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://5dspectrum.github.io/Alphabit/"
 languageCode = "en-us"
 title = "Alphabit Fund Website"
 theme = "alphabit"
