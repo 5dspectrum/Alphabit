@@ -113,7 +113,7 @@ section.members > .content {overflow:hidden;}
 .investment-process .panel-body .inner-content {padding:40px 20px;border:solid 1px #626365;}
 .investment-process .panel-body .inner-content h3 {color:#B20838;font-size:22px;letter-spacing:3px;font-weight:300;}
 .investment-process .panel-body .inner-content p {max-width:900px;line-height:26px;font-size:16px}
-.investment-process .panel-body .inner-content p.investment-logos {max-width:100%;}
+.investment-process .panel-body .inner-content p.investment-logos {max-width:100%;text-align:center;}
 .investment-process .panel-heading .panel-title a {font-size:18px;padding:10px 10px 10px 60px;display:block;background:url(../images/arrow-down.png) no-repeat left center;color:#B30838}
 .investment-process .panel-heading .panel-title a.collapsed {background:url(../images/arrow-right.png) no-repeat left center;color:#14171C}
 .investment-process .panel-heading .panel-title a:hover,.investment-process .panel-heading .panel-title a:focus {text-decoration:none; color:#B30838;transition:all 0.25s}
@@ -151,6 +151,7 @@ footer .backtotop {position:fixed;bottom:15px;right:15px;display:none;}
 	.fixed-header #main-header .logo-wrap {padding:5px 0;}
 	.fixed-header #main-header .main-nav {margin-bottom:0;box-shadow:0 3px 8px rgba(0,0,0,0.2)}
 	section.howwedo h2 {font-size:45px;}
+	.investment-process .panel-body .inner-content p.investment-logos {text-align:left;}
 }
 
 @media (min-width: 990px) {
