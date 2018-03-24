@@ -29,6 +29,23 @@
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/scripts.js"></script>
 	<script>
+		var target = window.location.hash,
+		target = target.replace('#', '');
+
+		// delete hash so the page won't scroll to it
+		window.location.hash = "";
+
+		// now whenever you are ready do whatever you want
+		// (in this case I use jQuery to scroll to the tag after the page has loaded)
+		$(window).on('load', function() {
+			if (target) {
+				$('html, body').animate({
+					scrollTop: $("#" + target).offset().top - 140
+				}, 700, 'swing', function () {});
+			}
+		});
+	
+	
 		$(window).load(function() {
 		  $('.flexslider').flexslider({
 			animation: "slide",
@@ -39,6 +56,8 @@
 			maxItems: 4,
 			controlNav: false
 		  });
+		  
+			
 		});
 		window.sr = ScrollReveal({duration: 1500,delay: 50});
 		sr.reveal('.home-philosophy > *');
@@ -48,7 +67,7 @@
 		sr.reveal('.home-members');
 		
 		$(document).ready(function(){
-			$("nav a").click(function(event){     
+			$("body.home nav a").click(function(event){
 				event.preventDefault();
 				
 				var pos = parseInt($(this.hash).offset().top);
@@ -59,6 +78,8 @@
 				}
 				
 			});
+			
+			
 			
 			$('.member-showInfo').click(function(e){
 				t = $(this);
@@ -75,6 +96,8 @@
 				$('.member-info .info-about').html(t.data('about'));
 			})
 		})
+		
+		
 	</script>
 </body>
 </html>
