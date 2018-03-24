@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Liam Robertson",
-		"position": "Chief Executive Office",
+		"position": "Chief Executive Officer",
 		"email": "liam@alphabit.com",
         "image": "images/liam-robertson.jpg",
         "url": "#",
@@ -37,14 +37,14 @@
 	
 	{
         "id": 3,
-        "name": "Anandapruba Rajendran",
-		"position": "Head of Trading",
-		"email": "anandapruba@alphabit.com",
-        "image": "images/anandaprabu-rajendran.jpg",
+        "name": "Seth Shapiro",
+		"position": "Business Development",
+		"email": "seth@alphabit.com",
+        "image": "images/seth-shapiro.jpg",
         "url": "#",
 		"mobile_number": "000.000.0000",
 		"office_number": "000.000.0000",
-		"about" : "<p>Graduating in commerce, Anand was aware of digital currency from its inception.<br/><br/>Since then he has enjoyed tremendous success with both the mining and trading of cryptocurrencies, and is the provider of liquidity for all of India’s Bitcoin exchanges. <br/><br/>This success has enabled Anand to co-found two impressive bitcoin related companies, most notably Coinsburg, another digital currency asset management firm which is going from strength to strength.</p>"
+		"about" : "<p>Leading advisor to companies including Disney, Comcast, DIRECTV, Intel, AT&T, Interpublic Group, Showtime, RTL, Telstra, Universal, Goldman Sachs.<br/><br/>Quoted in The Economist, The New York Times. The LA Times, CNBC, The Boston Globe, Bloomberg, The Associated Press, PBS, The Daily Mail.<br/><br/>Head of Strategy at VideoCoin;  Governor at the Television Academy: Adjunct Professor at USC; Chairman at www.VRARProject.com; Two-time Emmy® Award winner.</p>"
     },
 	
 	{
@@ -59,20 +59,9 @@
 		"about" : "<p>A bitcoin evangelist and algorithmic trader, Brad has been in the blockchain technology space since 2011.<br/><br/>Before this, Brad was a pioneer in the social gaming space, managing virtual economies for Facebook, and iOS games with millions of users.<br/><br/>Brad Mills is an extremely well-known face in the digital Currency space, and with his partners has developed quantitative algorithmic trading strategies for traditional markets and cryptocurrency trading. He serves as advisor to the ICO portfolio team, himself holding more than 100 different currencies. </p>"
     },
 	
-	{
-        "id": 5,
-        "name": "Seth Shapiro",
-		"position": "Advisor",
-		"email": "seth@alphabit.com",
-        "image": "images/seth-shapiro.jpg",
-        "url": "#",
-		"mobile_number": "000.000.0000",
-		"office_number": "000.000.0000",
-		"about" : "<p>Leading advisor to companies including Disney, Comcast, DIRECTV, Intel, AT&T, Interpublic Group, Showtime, RTL, Telstra, Universal, Goldman Sachs.<br/><br/>Quoted in The Economist, The New York Times. The LA Times, CNBC, The Boston Globe, Bloomberg, The Associated Press, PBS, The Daily Mail.<br/><br/>Head of Strategy at VideoCoin;  Governor at the Television Academy: Adjunct Professor at USC; Chairman at www.VRARProject.com; Two-time Emmy® Award winner.</p>"
-    },
 	
 	{
-        "id": 6,
+        "id": 5,
         "name": "Michael Terpin",
 		"position": "Advisor",
 		"email": "michael@alphabit.com",

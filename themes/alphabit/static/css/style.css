@@ -152,7 +152,7 @@ footer .backtotop {position:fixed;bottom:15px;right:15px;display:none;}
 	.fixed-header #main-header .main-nav {margin-bottom:0;box-shadow:0 3px 8px rgba(0,0,0,0.2)}
 	section.howwedo h2 {font-size:45px;}
 	.investment-process .panel-body .inner-content p.investment-logos {text-align:left;}
-	.investment-logos img {display:inline-block;vertical-align:middle;height:50px;width:auto;margin:0 10px 10px 10px;clear:none;}
+	.investment-logos img {display:inline-block;vertical-align:middle;height:50px;width:auto;margin:0 10px 20px 10px;clear:none;}
 }
 
 @media (min-width: 990px) {
