@@ -29,21 +29,23 @@
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/scripts.js"></script>
 	<script>
-		var target = window.location.hash,
-		target = target.replace('#', '');
+		if(window.location.hash != ""){
+			var target = window.location.hash,
+			target = target.replace('#', '');
 
-		// delete hash so the page won't scroll to it
-		window.location.hash = "";
+			// delete hash so the page won't scroll to it
+			window.location.hash = "";
 
-		// now whenever you are ready do whatever you want
-		// (in this case I use jQuery to scroll to the tag after the page has loaded)
-		$(window).on('load', function() {
-			if (target) {
-				$('html, body').animate({
-					scrollTop: $("#" + target).offset().top - 140
-				}, 700, 'swing', function () {});
-			}
-		});
+			// now whenever you are ready do whatever you want
+			// (in this case I use jQuery to scroll to the tag after the page has loaded)
+			$(window).on('load', function() {
+				if (target) {
+					$('html, body').animate({
+						scrollTop: $("#" + target).offset().top - 140
+					}, 700, 'swing', function () {});
+				}
+			});
+		}
 	
 	
 		$(window).load(function() {
