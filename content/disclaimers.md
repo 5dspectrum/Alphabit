@@ -6,9 +6,9 @@ draft: true
 
 
 
-Website Disclaimer:
+### Website Disclaimer:
 
-This websitewww.alphabit.fund(the “Website”), is a website of Alphabit Limited(“AB”).
+This website www.alphabit.fund (the “Website”), is a website of Alphabit Limited(“AB”).
 These terms and conditions (the “Terms”) govern your access to and use of this Website. Please read these Terms carefully. By continuing to access and use the Website you are deemed to have understood and agreed to the Terms.
 
 #### 1. WEBSITE CONTENT
