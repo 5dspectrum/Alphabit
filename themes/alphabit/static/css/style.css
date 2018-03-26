@@ -56,7 +56,7 @@ section.content {padding: 30px 0;background-color:#D3D6D6;margin:0 0 8px;}
 hr.redline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:solid 2px #B30838;}
 hr.whiteline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:solid 2px #FFFFFF;}
 
-section.howwedo {background-color:#000;color:#FFF;}
+section#strategy.howwedo {background-color:#000;color:#FFF;background-image:url(../images/howwedo-bg.jpg);background-repeat:no-repeat;background-size:90% auto !important;background-position:center bottom;}
 section.howwedo h2 {font-size:38px;color:#000;text-shadow: -1px 0 #B30838, 0 1px #B30838, 1px 0 #B30838, 0 -1px #B30838;text-align:left;letter-spacing:3px;font-weight:700}
 section.management {}
 section.members {background-color:#000;color:#FFF;}
@@ -67,6 +67,7 @@ section.members > .content {overflow:hidden;}
 
 .home-philosophy {max-width:900px;margin:0 auto;padding:40px 0;}
 .home-howwedo {max-width:1050px;margin:0 auto;padding:40px 0;}
+.home-howwedo ol li {margin-bottom:10px;}
 .home-howwedo .readon {text-align:center;font-size:30px;padding-top:70px;color:#D4D6D6;margin-bottom:0;letter-spacing:3px}
 .home-management {max-width:900px;margin:0 auto;padding:40px 0;}
 .home-members {max-width:1000px;margin:0 auto;padding:40px 0;}
@@ -127,11 +128,13 @@ footer .backtotop a {display:inline-block;font-size:30px;color:#FFF;background-c
 footer .backtotop a:hover {opacity:1;transition:all 0.5s}
 footer .footer-social{text-align:center;padding:10px 0 0;border-top:solid 1px #B30838;border-bottom:solid 1px #B30838;color:#B20838;clear:both;}
 footer .footer-social p{margin-bottom:12px;}
-footer .footer-bottom {padding:15px 35px;height:45px;color:#908D89;font-size:10px;width:100%;max-width:1100px;margin:0 auto;font-weight:500;}
-footer .footer-disclaimer {float:left;}
+footer .footer-social a {color:#B20838}
+footer .footer-bottom {padding:10px 35px;height:30px;color:#908D89;font-size:10px;width:100%;max-width:1100px;margin:0 auto;font-weight:500;}
+footer .footer-disclaimer {float:none;text-align:center;}
 footer .footer-info {float:right;}
 footer .footer-bottom a{color:#908D89}
 footer .backtotop {position:fixed;bottom:15px;right:15px;display:none;}
+footer .copyright {padding:10px 0 10px;clear:both;color:#908D89}
 
 
 /* @MEDIA QUERIES */
@@ -145,6 +148,7 @@ footer .backtotop {position:fixed;bottom:15px;right:15px;display:none;}
 	nav .main-menu ul li{list-style:none;display:inline-block;width:24%;text-align:center;}
 	nav .main-menu ul li a{color:#15191E;}
 	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
+	footer .footer-bottom {float:left;}
 
 	.fixed-header #main-header {position:fixed;top:0;right:0;left:0;z-index:99;background-color:#FFF;transition: all 1s;transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
 	.fixed-header #main-header .topbar {display:none;}
