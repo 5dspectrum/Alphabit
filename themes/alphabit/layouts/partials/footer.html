@@ -70,7 +70,7 @@
 		sr.reveal('.home-members');
 		
 		$(document).ready(function(){
-			$("body.home nav a").click(function(event){
+			$("body.home nav a.scrollto").click(function(event){
 				event.preventDefault();
 				
 				var pos = parseInt($(this.hash).offset().top);

@@ -53,9 +53,9 @@
 					<a class="close-nav" href="#"><span class="glyphicon glyphicon-remove-circle"></span></a>
 					<div class="container">
 						<ul>
-							<li><a href="https://5dspectrum.github.io/Alphabit/#philosophy">OUR PHILOSOPHY</a></li>
-							<li><a href="https://5dspectrum.github.io/Alphabit/#strategy">THE STRATEGY</a></li>
-							<li><a href="https://5dspectrum.github.io/Alphabit/#members">TEAM MEMBERS</a></li>
+							<li><a href="https://5dspectrum.github.io/Alphabit/#philosophy" class="scrollto">OUR PHILOSOPHY</a></li>
+							<li><a href="https://5dspectrum.github.io/Alphabit/#strategy" class="scrollto">THE STRATEGY</a></li>
+							<li><a href="https://5dspectrum.github.io/Alphabit/#members" class="scrollto">TEAM MEMBERS</a></li>
 							<li><a href="mailto:info@alphabit.fund">GET IN TOUCH</a></li>
 						</ul>
 					</div>
@@ -158,7 +158,7 @@
 		sr.reveal('.home-members');
 		
 		$(document).ready(function(){
-			$("body.home nav a").click(function(event){
+			$("body.home nav a.scrollto").click(function(event){
 				event.preventDefault();
 				
 				var pos = parseInt($(this.hash).offset().top);
