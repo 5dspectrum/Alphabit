@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alphabit Fund Website</title>
+    <link>https://5dspectrum.github.io/Alphabit/post/</link>
+    <description>Recent content in Posts on Alphabit Fund Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Mar 2018 01:20:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://5dspectrum.github.io/Alphabit/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2</title>
+      <link>https://5dspectrum.github.io/Alphabit/post/2/</link>
+      <pubDate>Fri, 23 Mar 2018 01:20:18 +0800</pubDate>
+      
+      <guid>https://5dspectrum.github.io/Alphabit/post/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1</title>
+      <link>https://5dspectrum.github.io/Alphabit/post/1/</link>
+      <pubDate>Fri, 23 Mar 2018 01:20:10 +0800</pubDate>
+      
+      <guid>https://5dspectrum.github.io/Alphabit/post/1/</guid>
+      <description>JUST SAMPLE POST Lorem ipsum sald aslkd jaskd asljkd jasldk jasld ads sa asd asd asd
+Subhead here Som paragraphs here..</description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>https://5dspectrum.github.io/Alphabit/post/second-post/</link>
+      <pubDate>Sat, 17 Mar 2018 20:11:21 +0800</pubDate>
+      
+      <guid>https://5dspectrum.github.io/Alphabit/post/second-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://5dspectrum.github.io/Alphabit/post/first-post/</link>
+      <pubDate>Sat, 17 Mar 2018 19:42:47 +0800</pubDate>
+      
+      <guid>https://5dspectrum.github.io/Alphabit/post/first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
