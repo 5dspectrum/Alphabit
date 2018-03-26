@@ -1,0 +1,188 @@
+/*
+
+
+THEME COLORS:
+red #B30838
+black #15191E
+text #D4D6D6
+*/
+
+
+/* HEADER */
+body{
+	font-size:17px;
+	color:#15191E;
+	font-family:'Roboto',sans-serif;
+}
+
+p {margin-bottom:25px;}
+
+.topbar {background-color:#B30838;color:#FFFFFF;}
+.topbar > div > div{padding:6px 0;text-transform:uppercase}
+.logo-wrap {padding:20px 0;}
+.site-logo {max-height:60px;}
+.navbar-toggle {position: relative;float: right;margin-right: 15px;padding: 9px 10px;margin-top: 8px;margin-bottom: 8px;background-color: transparent;background-image: none;border: 1px solid transparent;border-radius: 4px;cursor:pointer;float:left;}
+.navbar-toggle .icon-bar {background-color:#333;display: block;width: 22px;height: 2px;border-radius: 1px;margin-top:4px;}
+.navbar-toggle {margin-top:15px;margin-bottom:0;margin-right:0;}
+.navbar-toggle:hover {transition:all 1200ms;border:solid 1px #000;box-shadow:0 0 6px rgba(0,0,0,0.7);}
+.navbar-toggle > span:first-child {margin-top:0;}
+nav.main-nav {margin-bottom:10px;display:none;}
+.fixed-header #main-header {display:block;}
+.main-nav .close-nav {display:none;}
+.main-banner > video {display:block;width:100%;height:auto;margin:0;border:0;padding:0;height:100%}
+.top-callto {color:#FFF;}
+.top-callto:hover,.top-callto:focus {text-decoration:none;color:#B30838;text-shadow:-1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF}
+
+.mobile-nav {}
+.mobile-nav .main-nav {display:block;}
+.mobile-nav .main-nav > .main-menu{position:fixed;background-color:rgba(0,0,0,0.8);top:0;left:0;right:0;bottom:0;z-index:100}
+
+.mobile-nav .main-nav .close-nav {display:block;position:absolute;top:70px;left:16px;padding:10px 7px;background-color:transparent;font-size:30px;line-height:10px;text-align:center;vertical-align:middle;width:34px;height:34px;color:#FFF;font-weight:100;}
+.mobile-nav .main-nav .close-nav:hover {text-decoration:none;}
+.mobile-nav .main-nav > .main-menu ul{padding:0;margin-top:110px}
+.mobile-nav .main-nav > .main-menu ul > li{text-align:center;transition:all 1s;list-style:none;}
+.mobile-nav .main-nav > .main-menu ul > li.anim {opacity:1;}
+.mobile-nav .main-nav > .main-menu ul > li > a{display:block;padding:10px 10px;color:#FFF;margin-bottom:12px;font-size:20px;}
+.mobile-nav .main-nav > .main-menu ul > li > a:hover,.mobile-nav .main-nav > .main-menu ul > li > a:focus {text-decoration:none;background-color:#B30838;text-shadow:0 1px 2px rgba(0,0,0,0.7)}
+
+
+
+/* CONTENT */
+h2 {color:#B30838;text-align:center;font-weight:400;margin-bottom:20px;}
+section.arrowed{position:relative;margin-top:8px;}
+section.arrowed:before {display:block;content:" ";position:absolute;height:50px;background:url(../images/arrow-red.png) no-repeat center top;background-size:100% auto;width:50px;left:calc(50% - 25px);top:-22px;}
+section.content {padding: 30px 0;background-color:#D3D6D6;margin:0 0 8px;}
+
+hr.redline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:solid 2px #B30838;}
+hr.whiteline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:solid 2px #FFFFFF;}
+
+section#strategy.howwedo {background-color:#000;color:#FFF;background-image:url(../images/howwedo-bg.jpg);background-repeat:no-repeat;background-size:90% auto !important;background-position:center bottom;}
+section.howwedo h2 {font-size:38px;color:#000;text-shadow: -1px 0 #B30838, 0 1px #B30838, 1px 0 #B30838, 0 -1px #B30838;text-align:left;letter-spacing:3px;font-weight:700}
+section.management {}
+section.members {background-color:#000;color:#FFF;}
+section.members {color:#000;text-align:left;letter-spacing:3px;}
+section.members > .content {overflow:hidden;}
+.investment-logos img {display:block;vertical-align:middle;height:50px;width:auto;margin:0 auto 20px;clear:both;}
+
+
+.home-philosophy {max-width:900px;margin:0 auto;padding:40px 0;}
+.home-howwedo {max-width:1050px;margin:0 auto;padding:40px 0;}
+.home-howwedo ol li {margin-bottom:10px;}
+.home-howwedo .readon {text-align:center;font-size:30px;padding-top:70px;color:#D4D6D6;margin-bottom:0;letter-spacing:3px}
+.home-management {max-width:900px;margin:0 auto;padding:40px 0;}
+.home-members {max-width:1000px;margin:0 auto;padding:40px 0;}
+.home-members h2 {color:#FFF;}
+
+
+/* TEAM MEMBERS */
+.members-wrap .flexslider {background-color:transparent;border:0;margin-top:50px;}
+.members-wrap .flexslider h4 {text-transform:uppercase;font-size:16px;margin-top:10px}
+.members-wrap .flexslider h4,.members-wrap .flexslider h5{color:#FFF;text-align:center;}
+.members-wrap .flexslider img{max-width:140px;display:block;margin:0 auto;border:solid 3px #B20838;filter:grayscale(100%)}
+.members-wrap .flexslider img:hover{transition:all 1s}
+.members-wrap .flexslider .slides li a {display:block;}
+.members-wrap .flexslider .slides li a:hover,.members-wrap .flexslider .slides li a:focus {text-decoration:none;transform:scale(1.04);transition:all 0.5s;}
+.members-wrap .flexslider .slides li a:hover img,.members-wrap .flexslider .slides li a:focus img {transform:scale(1.10);padding:2px;border-color:#FFF;transition:all 0.5s;}
+.members-wrap .flexslider .flex-viewport {padding:25px 0px;}
+.members-wrap .flexslider .flex-direction-nav {color:#FFF;}
+.members-wrap .flexslider .flex-direction-nav a {height:80px;opacity:1;width:50px;}
+.members-wrap .flexslider .flex-direction-nav a::before{color:#FFF;font-size:60px;font-weight:normal;font-family:'Glyphicons Halflings';content:"\e257"}
+.members-wrap .flexslider .flex-direction-nav a.flex-next::before {content:"\e258"}
+.members-wrap .flexslider .flex-direction-nav .flex-prev {}
+.members-wrap .flexslider .flex-direction-nav .flex-next {}
+.members-wrap .flexslider .flex-direction-nav .flex-disabled {opacity:1 !important;color:#FFF;}
+.members-wrap .flexslider:hover .flex-direction-nav .flex-prev,.members-wrap .flex-direction-nav .flex-prev {left:-100px;display:none;}
+.members-wrap .flexslider:hover .flex-direction-nav .flex-next,.members-wrap .flex-direction-nav .flex-next {right:-100px;display:none;}
+
+.member-info {display:none;background:url(../images/member-bg.png) repeat-x 0 0 #D3D6D6;background-size:auto 200px;position:relative}
+.member-info .content {max-width:900px;margin:0 auto;padding-top:40px;padding-bottom:30px;}
+.member-info .content img {max-width:250px;border:solid 3px #B20838;margin:0 auto 10px;}
+.member-info .member-info-img {margin-bottom:40px;padding-top:25px;}
+.member-info .member-info-img .img-wrap {display:block;vertical-align:middle;text-align:center;}
+.member-info .member-info-img .name-wrap {display:block;vertical-align:middle;text-align:center;}
+.member-info .member-info-img .name-wrap h3 {color:#FFF;margin-top:0;margin-bottom:30px;font-size:22px;text-transform:uppercase}
+.member-info .member-info-img .name-wrap p {margin-bottom:10px;}
+.member-info .member-info-img .name-wrap .info-email {text-transform:uppercase}
+.member-info .member-info-data p{font-size:17px;margin-bottom:30px}
+.member-info .close-member {display:inline-block;position:absolute;top:4%;right:5%;padding:10px 7px;background-color:transparent;font-size:40px;line-height:10px;text-align:center;vertical-align:middle;color:#000;font-weight:normal;padding:4px;-webkit-text-stroke: 3px #B20838;}
+.member-info .close-member:hover,.member-info .close-member:focus {text-decoration:none;color:#FFF;border-color:#FFF;transition:all 0.5s;}
+
+.investment-process {max-width:1200px;margin:0 auto;}
+.investment-process .panel{background-color:transparent;border:0;box-shadow:none;}
+.investment-process .panel-heading{background-color:transparent;border:0;padding:0 0px;margin:0 50px;max-width:900px;margin:0 auto;display:block;}
+.investment-process .panel-body {border:0;background-color:#FFF;margin:30px 0;padding:10px;position:relative;}
+.investment-process .panel-body .inner-content {padding:40px 20px;border:solid 1px #626365;}
+.investment-process .panel-body .inner-content h3 {color:#B20838;font-size:22px;letter-spacing:3px;font-weight:300;}
+.investment-process .panel-body .inner-content p {max-width:900px;line-height:26px;font-size:16px}
+.investment-process .panel-body .inner-content p.investment-logos {max-width:100%;text-align:center;}
+.investment-process .panel-heading .panel-title a {font-size:18px;padding:10px 10px 10px 60px;display:block;background:url(../images/arrow-down.png) no-repeat left center;color:#B30838}
+.investment-process .panel-heading .panel-title a.collapsed {background:url(../images/arrow-right.png) no-repeat left center;color:#14171C}
+.investment-process .panel-heading .panel-title a:hover,.investment-process .panel-heading .panel-title a:focus {text-decoration:none; color:#B30838;transition:all 0.25s}
+.investment-process .close-panel {display:inline-block;position:absolute;top:20px;right:20px;padding:10px 7px;background-color:transparent;font-size:40px;line-height:10px;text-align:center;vertical-align:middle;color:#B20838;-webkit-text-stroke: 3px #FFFFFF;}
+.investment-process .close-panel:hover {text-decoration:none;color:#000;border-color:#000;transform:scale(1.1);transition:all 0.5s}
+
+
+/* FOOTER */
+footer#main-footer {margin-top:10px;position:relative}
+footer .backtotop a {display:inline-block;font-size:30px;color:#FFF;background-color:#B30838;border-radius:50%;width:40px;height:38px;padding:0 5px;opacity:0.6}
+footer .backtotop a:hover {opacity:1;transition:all 0.5s}
+footer .footer-social{text-align:center;padding:10px 0 0;border-top:solid 1px #B30838;border-bottom:solid 1px #B30838;color:#B20838;clear:both;}
+footer .footer-social p{margin-bottom:12px;}
+footer .footer-social a {color:#B20838}
+footer .footer-bottom {padding:10px 35px;height:30px;color:#908D89;font-size:10px;width:100%;max-width:1100px;margin:0 auto;font-weight:500;}
+footer .footer-disclaimer {float:none;text-align:center;}
+footer .footer-info {float:right;}
+footer .footer-bottom a{color:#908D89}
+footer .backtotop {position:fixed;bottom:15px;right:15px;display:none;}
+footer .copyright {padding:10px 0 10px;clear:both;color:#908D89}
+
+
+/* @MEDIA QUERIES */
+@media (min-width: 768px) {
+	body.fixed-header {padding-top:180px;}
+	section.content {padding: 40px 0; }
+	.navbar-toggle {display:none;}
+	nav.main-nav {margin-bottom:10px;display:block;}
+	nav .main-menu {border-top:solid 1px #B30838;border-bottom:solid 1px #B30838;padding:5px 0;text-align:center;}
+	nav .main-menu ul{padding:0;margin:0;}
+	nav .main-menu ul li{list-style:none;display:inline-block;width:24%;text-align:center;}
+	nav .main-menu ul li a{color:#15191E;}
+	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
+	footer .footer-bottom {float:left;}
+
+	.fixed-header #main-header {position:fixed;top:0;right:0;left:0;z-index:99;background-color:#FFF;transition: all 1s;transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+	.fixed-header #main-header .topbar {display:none;}
+	.fixed-header #main-header .logo-wrap {padding:5px 0;}
+	.fixed-header #main-header .main-nav {margin-bottom:0;box-shadow:0 3px 8px rgba(0,0,0,0.2)}
+	section.howwedo h2 {font-size:45px;}
+	.investment-process .panel-body .inner-content p.investment-logos {text-align:left;}
+	.investment-logos img {display:inline-block;vertical-align:middle;height:50px;width:auto;margin:0 10px 20px 10px;clear:none;}
+}
+
+@media (min-width: 990px) {
+	nav.main-nav {margin-bottom:10px;display:block;}
+	nav .main-menu {border-top:solid 1px #B30838;border-bottom:solid 1px #B30838;padding:5px 0;text-align:center;}
+	nav .main-menu ul{padding:0;margin:0;}
+	nav .main-menu ul li{list-style:none;display:inline-block;width:24%;text-align:center;}
+	nav .main-menu ul li a{color:#15191E;}
+	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
+	
+	.member-info .member-info-img .img-wrap {width:30%;display:inline-block;vertical-align:middle;text-align:left;}
+	.member-info .member-info-img .name-wrap {width:65%;display:inline-block;vertical-align:middle;text-align:left;margin-top:50px;}
+	
+	footer .footer-bottom {font-size:15px}
+	footer .footer-disclaimer {float:left;position:relative;top:-82px;}
+	footer .footer-info {float:right;position:relative;top:-82px;}
+	
+	.members-wrap .flexslider:hover .flex-direction-nav .flex-prev,.members-wrap .flex-direction-nav .flex-prev {display:inline-block;}
+	.members-wrap .flexslider:hover .flex-direction-nav .flex-next,.members-wrap .flex-direction-nav .flex-next {display:inline-block;}
+	.investment-process .panel-heading .panel-title a {font-size:23px;}
+}
+
+
+@media (min-width: 1200px) {
+	.container {max-width:1280px;}
+
+	h2 {font-size:27px;}
+
+}
