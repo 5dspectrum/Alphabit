@@ -148,7 +148,7 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89}
 	nav .main-menu ul li{list-style:none;display:inline-block;width:24%;text-align:center;}
 	nav .main-menu ul li a{color:#15191E;}
 	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
-	footer .footer-bottom {float:left;}
+	footer .footer-bottom {}
 
 	.fixed-header #main-header {position:fixed;top:0;right:0;left:0;z-index:99;background-color:#FFF;transition: all 1s;transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
 	.fixed-header #main-header .topbar {display:none;}

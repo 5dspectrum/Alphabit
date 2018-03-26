@@ -35,7 +35,7 @@ publishDir = "docs"
 
 [params.social.facebook]
 	title = "facebook"
-	url = "https://www.facebook.com/"
+	url = "https://www.facebook.com/alphabitltd/"
     icon = "fa-facebook-square"
     footer = true
     sharethis = true
@@ -43,7 +43,7 @@ publishDir = "docs"
 	
 [params.social.twitter]
 	title = "twitter"
-	url = "https://www.twitter.com/"
+	url = "https://twitter.com/alphabitltd"
     icon = "fa-facebook-square"
     footer = true
     sharethis = true
@@ -51,7 +51,7 @@ publishDir = "docs"
 	
 [params.social.in]
 	title = "linkedin"
-	url = "https://www.linkedin.com/"
+	url = "https://www.linkedin.com/company/18050235/"
     icon = "fa-facebook-square"
     footer = true
     sharethis = true
