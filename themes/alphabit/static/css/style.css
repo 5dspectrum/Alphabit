@@ -100,7 +100,7 @@ section.members > .content {overflow:hidden;}
 .member-info .member-info-img {margin-bottom:40px;padding-top:25px;}
 .member-info .member-info-img .img-wrap {display:block;vertical-align:middle;text-align:center;}
 .member-info .member-info-img .name-wrap {display:block;vertical-align:middle;text-align:center;}
-.member-info .member-info-img .name-wrap h3 {color:#FFF;margin-top:0;margin-bottom:30px;font-size:22px;text-transform:uppercase}
+.member-info .member-info-img .name-wrap h3 {color:#FFF;margin-top:0;margin-bottom:10px;font-size:22px;text-transform:uppercase}
 .member-info .member-info-img .name-wrap p {margin-bottom:10px;}
 .member-info .member-info-img .name-wrap .info-email {text-transform:uppercase}
 .member-info .member-info-data p{font-size:17px;margin-bottom:30px}
@@ -169,7 +169,7 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
 	
 	.member-info .member-info-img .img-wrap {width:30%;display:inline-block;vertical-align:middle;text-align:left;}
-	.member-info .member-info-img .name-wrap {width:65%;display:inline-block;vertical-align:middle;text-align:left;margin-top:50px;}
+	.member-info .member-info-img .name-wrap {width:65%;display:inline-block;vertical-align:middle;text-align:left;margin-top:25px;}
 	
 	footer .footer-bottom {font-size:15px}
 	footer .footer-disclaimer {float:left;position:relative;top:-82px;}
