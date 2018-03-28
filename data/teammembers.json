@@ -48,6 +48,30 @@
     },
 	
 	{
+        "id": 6,
+        "name": "Nicu Harajchi",
+		"position": "Business Development (Asia Pacific)",
+		"email": "nicu@alphabit.com",
+        "image": "images/nicu-harajchi.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>With over 18 years of experience in the capital markets industry, Nicu is now a leading analyst in the Cryptocurrency industry and owner of Smart Contract Capital Ltd.,  a regulated licensed crypto fund, based in Jersey. Furthermore, Mr Harajchi is the owner of one of Iceland‘s most successful Crypto Mining Farms Sky Data Center Ltd.</p><p>In 2007, he founded and directed the company N1 Asset Management, an offshore Cayman Island investment company based in Hong Kong. Thrugh three “Master-Feeder” structures, incorporated under Barclays Bank umbrella structure, they raised and managed USD$500 million in the asset from Asian clients.</p>"
+    },
+	
+	{
+        "id": 7,
+        "name": "Anandaprabu Rajendran",
+		"position": "Head of Trading",
+		"email": "anandaprabu@alphabit.com",
+        "image": "images/anandaprabu-rajendran.jpg",
+        "url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about" : "<p>Graduating in commerce, Anand was aware of digital currency from its inception. </p><p>Since then he has enjoyed tremendous success with both the mining and trading of cryptocurrencies, and is the provider of liquidity for all of India’s Bitcoin exchanges. </p><p>This success has enabled Anand to co-found two impressive bitcoin related companies, most notably Coinsburg, another digital currency asset management firm which is going from strength to strength.</p>"
+    },
+	
+	{
         "id": 4,
         "name": "Brad Mills",
 		"position": "Advisor",
@@ -71,5 +95,7 @@
 		"office_number": "000.000.0000",
 		"about" : "<p>Michael is one of the most visible investors in the digital asset sector. In 2013, he co-founded BitAngels, the world’s first angel network for digital currency investments. <br/><br/>Terpin is considered the top marketer in the digital currency sector, having worked with more than 100 blockchain companies and coins as an advisor or through his agency, Transform Group. <br/><br/>Terpin is also an investor and advisor to many blockchain, media and technology companies, including GoCoin, Purse.io and ShapeShift.</p>"
     }
+	
+	
 	
 ]
