@@ -90,7 +90,7 @@
 				
 				$("#member-info").hide().fadeIn(200,function(){$('html,body').animate({scrollTop:parseInt($('#member-info').offset().top - 100)}, 500);});
 				
-				$('.member-info .info-picture').attr('src',$(this).find('img.img-circle').attr('src'));
+				$('.member-info .info-picture').attr('src',t.data('image'));
 				$('.member-info .info-name').html(t.data('name'));
 				$('.member-info .info-position').html(t.data('position'));
 				$('.member-info .info-email').html(t.data('email'));
