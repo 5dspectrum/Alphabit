@@ -57,7 +57,7 @@ section.content {padding: 30px 0;background-color:#D3D6D6;margin:0 0 8px;}
 hr.redline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:solid 2px #B30838;}
 hr.whiteline {display:block;max-width:75px;margin:20px auto;clear:both;border-top:solid 2px #FFFFFF;}
 
-section#strategy.howwedo {background-color:#000;color:#FFF;background-image:url(../images/howwedo-bg.jpg);background-repeat:no-repeat;background-size:90% auto !important;background-position:center bottom;padding-bottom:70px;}
+section#strategy.howwedo {background-color:#040404;color:#FFF;background-image:url(../images/howwedo-bg.jpg);background-repeat:no-repeat;background-size:auto 30%;background-position:right bottom;padding-bottom:70px;}
 section.howwedo h2 {font-size:34px;color:#000;text-shadow: -1px 0 #B30838, 0 1px #B30838, 1px 0 #B30838, 0 -1px #B30838;text-align:left;letter-spacing:3px;font-weight:500;margin-bottom:10px;}
 section.management {}
 section.members {background-color:#000;color:#FFF;}
@@ -168,6 +168,8 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	.member-info .member-info-img .name-wrap h3 {color:#FFF;}
 	
 	.mobile-only {display:none !important;}
+	
+	section#strategy.howwedo {background-color:#040404;color:#FFF;background-image:url(../images/howwedo-bg.jpg);background-repeat:no-repeat;background-size:100% auto !important;background-position:center bottom;padding-bottom:70px;}
 }
 
 @media (min-width: 990px) {
