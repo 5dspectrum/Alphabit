@@ -139,6 +139,9 @@ footer .backtotop {position:fixed;bottom:15px;right:15px;display:none;}
 footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 
 
+/* UTIL */
+.mobile-only {display:block !important;}
+
 /* @MEDIA QUERIES */
 @media (min-width: 768px) {
 	body.fixed-header {padding-top:180px;}
@@ -160,6 +163,8 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	.investment-process .panel-body .inner-content p.investment-logos {text-align:left;}
 	.investment-logos img {display:inline-block;vertical-align:middle;height:70px;width:auto;margin:0 10px 20px 10px;clear:none;}
 	footer .copyright {font-size:16px;}
+	
+	.mobile-only {display:none !important;}
 }
 
 @media (min-width: 990px) {
