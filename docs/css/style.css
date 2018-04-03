@@ -63,7 +63,7 @@ section.management {}
 section.members {background-color:#000;color:#FFF;}
 section.members {color:#000;text-align:left;letter-spacing:1px;}
 section.members > .content {overflow:hidden;}
-.investment-logos img {display:block;vertical-align:middle;height:80px;width:auto;margin:0 auto 20px;clear:both;}
+.investment-logos img {display:block;vertical-align:middle;max-height:80px;max-width:100%;margin:0 auto 20px;clear:both;}
 
 
 .home-philosophy {max-width:900px;margin:0 auto;padding:40px 0;}
@@ -105,6 +105,7 @@ section.members > .content {overflow:hidden;}
 .member-info .member-info-img .name-wrap h3 {color:#FFF;margin-top:0;margin-bottom:10px;font-size:22px;text-transform:uppercase}
 .member-info .member-info-img .name-wrap p {margin-bottom:10px;}
 .member-info .member-info-img .name-wrap .info-email {text-transform:uppercase}
+.member-info .member-info-img .name-wrap h3 {color:#000;}
 .member-info .member-info-data p{font-size:17px;margin-bottom:30px}
 .member-info .close-member {display:inline-block;position:absolute;top:4%;right:5%;padding:10px 7px;background-color:transparent;font-size:40px;line-height:10px;text-align:center;vertical-align:middle;color:#000;font-weight:normal;padding:4px;background:url(../images/icon-close-black.png) no-repeat center center;width:40px;height:40px;}
 .member-info .close-member:hover,.member-info .close-member:focus {text-decoration:none;color:#FFF;border-color:#FFF;transition:all 0.5s;transform:scale(1.1)}
@@ -163,6 +164,8 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	.investment-process .panel-body .inner-content p.investment-logos {text-align:left;}
 	.investment-logos img {display:inline-block;vertical-align:middle;height:70px;width:auto;margin:0 10px 20px 10px;clear:none;}
 	footer .copyright {font-size:16px;}
+	
+	.member-info .member-info-img .name-wrap h3 {color:#FFF;}
 	
 	.mobile-only {display:none !important;}
 }
