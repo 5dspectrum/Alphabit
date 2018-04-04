@@ -1,8 +1,8 @@
 	<div class="main-content">
 			<section class="main-banner">
-				 <video autoplay playsinline loop muted poster="images/alphabit-poster.jpg" src="videos/AlphabitAnimation-tiny.mp4">
-				  <source src="videos/AlphabitAnimation-tiny.ogv" type='video/ogg; codecs="theora, vorbis"'/>
-				  <source src="videos/AlphabitAnimation-tiny.webm" type='video/webm' >
+				 <video autoplay playsinline loop muted poster="{{ .Site.BaseURL }}images/alphabit-poster.jpg" src="{{ .Site.BaseURL }}videos/AlphabitAnimation-tiny.mp4">
+				  <source src="{{ .Site.BaseURL }}videos/AlphabitAnimation-tiny.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+				  <source src="{{ .Site.BaseURL }}videos/AlphabitAnimation-tiny.webm" type='video/webm' >
 				  <source src="{{ .Site.BaseURL }}videos/AlphabitAnimation-tiny.mp4" type='video/mp4'>
 				Your browser does not support the video tag.
 				</video> 

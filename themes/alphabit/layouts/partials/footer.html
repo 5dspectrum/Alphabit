@@ -5,16 +5,16 @@
 			
 			<div class="footer-social" id="contact">
 				<p>CONNECT WITH US</p>
-				<p><a href="{{ .Site.Params.social.facebook.url }}"><img src="images/social-fb.png" alt="Facebook"/></a> <a href="{{ .Site.Params.social.twitter.url }}"><img src="images/social-twitter.png" alt="Twitter"/></a> <a href="{{ .Site.Params.social.in.url }}"><img src="images/social-in.png" alt="Linkedin"/></a> </p>
+				<p><a href="{{ .Site.Params.social.facebook.url }}" target="_blank"><img src="{{ .Site.BaseURL }}images/social-fb.png" alt="Facebook"/></a> <a href="{{ .Site.Params.social.twitter.url }}" target="_blank"><img src="{{ .Site.BaseURL }}images/social-twitter.png" alt="Twitter"/></a> <a href="{{ .Site.Params.social.in.url }}" target="_blank"><img src="{{ .Site.BaseURL }}images/social-in.png" alt="Linkedin"/></a> </p>
 				<p class="email"><a href="mailto:info@alphabit.fund">INFO@ALPHABIT.FUND</a></p>
 			</div>
 			<div class="footer-bottom">
 				<div class="footer-disclaimer">
-					<a href="disclaimers/">DISCLAIMERS</a>
+					<a href="{{ .Site.BaseURL }}disclaimers/">DISCLAIMERS</a>
 				</div>
 				
 				<div class="footer-info">
-					<a href="risk-warning/">RISK WARNING</a>
+					<a href="{{ .Site.BaseURL }}risk-warning/">RISK WARNING</a>
 				</div>
 			</div>
 		</div>
@@ -24,11 +24,11 @@
 </div>
 
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/flexslider.min.js"></script>
-	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/flexslider.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/scrollreveal.min.js"></script>
+	<script src="{{ .Site.BaseURL }}js/scripts.js"></script>
 	<script>
 		if(window.location.hash != ""){
 			var target = window.location.hash,

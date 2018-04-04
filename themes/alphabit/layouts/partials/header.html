@@ -10,9 +10,9 @@
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/flexslider.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}css/flexslider.css" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
 	
 	<meta property="og:title" content="Alphabit Fund"/>
 	<meta property="og:image" content="{{ .Site.BaseURL }}images/alphabit-fund-og.jpg"/>
@@ -32,7 +32,7 @@
 			</div>
 			<div class="logo-wrap">
 				<div class="container text-center">
-					<a href="/"><img src="images/alphabit-logo.png" alt="" class="site-logo"/></a>
+					<a href="{{ .Site.BaseURL }}"><img src="images/alphabit-logo.png" alt="" class="site-logo"/></a>
 					
 					<button type="button" class="navbar-toggle visible-xs pull-left">
 						<span class="icon-bar"></span>
