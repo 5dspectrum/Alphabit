@@ -21,6 +21,7 @@ p {margin-bottom:25px;}
 .topbar > div {max-width:1280px;margin:0 auto;padding:0 10px;}
 .topbar > div > div{padding:6px 0;text-transform:uppercase}
 .logo-wrap {padding:20px 0;}
+.logo-wrap .container {width:100%}
 .site-logo {max-height:54px;}
 .navbar-toggle {position: relative;float: right;margin-right: 15px;padding: 9px 10px;margin-top: 8px;margin-bottom: 8px;background-color: transparent;background-image: none;border: 1px solid transparent;border-radius: 4px;cursor:pointer;float:left;}
 .navbar-toggle .icon-bar {background-color:#333;display: block;width: 22px;height: 2px;border-radius: 1px;margin-top:4px;}
@@ -145,7 +146,7 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 .mobile-only {display:block !important;}
 
 /* @MEDIA QUERIES */
-@media (min-width: 768px) {
+@media (min-width: 990px) {
 	body.fixed-header {padding-top:180px;}
 	section.content {padding: 40px 0; }
 	.navbar-toggle {display:none;}
@@ -166,7 +167,6 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	.investment-logos img {display:inline-block;vertical-align:middle;height:70px;width:auto;margin:0 10px 20px 10px;clear:none;}
 	footer .copyright {font-size:16px;}
 	
-	.member-info .member-info-img .name-wrap h3 {color:#FFF;}
 	
 	.mobile-only {display:none !important;}
 	
@@ -192,6 +192,8 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	.members-wrap .flexslider:hover .flex-direction-nav .flex-prev,.members-wrap .flex-direction-nav .flex-prev {display:inline-block;}
 	.members-wrap .flexslider:hover .flex-direction-nav .flex-next,.members-wrap .flex-direction-nav .flex-next {display:inline-block;}
 	.investment-process .panel-heading .panel-title a {font-size:23px;}
+	
+	.member-info .member-info-img .name-wrap h3 {color:#FFF;}
 }
 
 
@@ -199,5 +201,4 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	.container {max-width:1280px;}
 
 	h2 {font-size:27px;}
-
 }
