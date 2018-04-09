@@ -156,7 +156,7 @@
 									<a href="#" data-value="{}" data-name="{{ .name }}" data-position="{{ .position }}" data-email="{{ .email }}" data-about="{{ .about }}" data-image="{{ .image }}" class="member-showInfo">
 										<img src="{{ .Site.BaseURL }}{{ .image_gray }}" class="img-circle"/>
 										<h4 class="name">{{ .name }}</h4>
-										<h5 class="position">{{ .position }}</h5>
+										<h5 class="position">{{ .position | safeHTML }}</h5>
 									</a>
 								  </div>
 								</li>

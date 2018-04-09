@@ -183,7 +183,7 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
 	
 	.member-info .member-info-img .img-wrap {width:30%;display:inline-block;vertical-align:middle;text-align:left;}
-	.member-info .member-info-img .name-wrap {width:65%;display:inline-block;vertical-align:middle;text-align:left;margin-top:20px;padding-left:20px;}
+	.member-info .member-info-img .name-wrap {width:65%;display:inline-block;vertical-align:top;text-align:left;margin-top:105px;padding-left:20px;}
 	
 	footer .footer-bottom {font-size:15px}
 	footer .footer-disclaimer {float:left;position:relative;top:-82px;}
