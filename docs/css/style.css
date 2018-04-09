@@ -199,6 +199,12 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 
 @media (min-width: 1200px) {
 	.container {max-width:1280px;}
-
 	h2 {font-size:27px;}
+}
+
+
+@media (max-width: 1300px) {
+	.members-wrap .flexslider:hover .flex-direction-nav .flex-prev, .members-wrap .flex-direction-nav .flex-prev {left:-30px}
+	.members-wrap .flexslider:hover .flex-direction-nav .flex-next, .members-wrap .flex-direction-nav .flex-next {right:-30px;}
+	section.members > .content {overflow:visible;}
 }
