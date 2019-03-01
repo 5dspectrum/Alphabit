@@ -6,9 +6,39 @@
     <description>Recent content on Alphabit Fund Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 26 Mar 2018 20:02:13 +0800</lastBuildDate>
     
 	<atom:link href="https://5dspectrum.github.io/Alphabit/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Risk Warning</title>
+      <link>https://5dspectrum.github.io/Alphabit/risk-warning/</link>
+      <pubDate>Mon, 26 Mar 2018 20:02:13 +0800</pubDate>
+      
+      <guid>https://5dspectrum.github.io/Alphabit/risk-warning/</guid>
+      <description>Important information
+ Past performance is not a guide to future performance, nor a reliable indicator of future results or performance.   The value of investments, and the income or capital entitlement which may derive from them, if any, may go down as well as up and is not guaranteed; therefore, investors may not get back the amount originally invested.   Unless the performance of an investment meets or exceeds the rate of inflation, the real value of that investment will reduce.</description>
+    </item>
+    
+    <item>
+      <title>Additional Info</title>
+      <link>https://5dspectrum.github.io/Alphabit/additional-info/</link>
+      <pubDate>Sat, 24 Mar 2018 03:37:24 +0800</pubDate>
+      
+      <guid>https://5dspectrum.github.io/Alphabit/additional-info/</guid>
+      <description>Subheader Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus eros, accumsan id metus non, congue bibendum mauris. Curabitur sodales ante eget est hendrerit, at condimentum diam cursus. Nam vel consequat tellus. Proin tempus, felis sed viverra cursus, sapien nulla blandit sapien, at bibendum ante eros sed urna. Nunc quam nibh, convallis et leo sed, mollis lobortis urna. Donec eu massa cursus, mollis ante et, tincidunt nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</description>
+    </item>
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://5dspectrum.github.io/Alphabit/disclaimers/</link>
+      <pubDate>Sat, 24 Mar 2018 03:35:35 +0800</pubDate>
+      
+      <guid>https://5dspectrum.github.io/Alphabit/disclaimers/</guid>
+      <description>Website Disclaimer: This website www.alphabit.fund (the “Website”), is a website of Alphabit Limited(“AB”). These terms and conditions (the “Terms”) govern your access to and use of this Website. Please read these Terms carefully. By continuing to access and use the Website you are deemed to have understood and agreed to the Terms.
+1. WEBSITE CONTENT This Website contains text, data, graphics, photographs, illustrations, artwork, names, logos, trademarks, service marks and information connected with Alphabit Limited and its group undertakings or third-party licensors (“Information”).</description>
+    </item>
     
   </channel>
 </rss>
