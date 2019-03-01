@@ -151,21 +151,30 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	border-top: 3px solid #B30838;
 	padding: 10px 0;
 }
-	.top-menu ul {
+	.top-menu div ul {
 		display: flex;
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
-		.top-menu ul li {
+		.top-menu div ul li {
 			flex-grow: 1;
 			text-align: center;
 		}
+			.top-menu div ul li a {
+				color: #000;
+			}
 
 /* UTIL */
 .mobile-only {display:block !important;}
 
 /* @MEDIA QUERIES */
+@media ( max-width: 480px ) {
+	.top-menu {
+		display: none;
+	}
+}
+
 @media (min-width: 990px) {
 	body.fixed-header {padding-top:180px;}
 	section.content {padding: 40px 0; }
