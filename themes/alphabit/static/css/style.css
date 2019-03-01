@@ -169,6 +169,12 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 .mobile-only {display:block !important;}
 
 /* @MEDIA QUERIES */
+@media ( max-width: 480px ) {
+	.top-menu {
+		display: none;
+	}
+}
+
 @media (min-width: 990px) {
 	body.fixed-header {padding-top:180px;}
 	section.content {padding: 40px 0; }
