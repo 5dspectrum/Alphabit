@@ -147,17 +147,17 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	font-weight: normal;
 }
 
-nav {
+.top-menu {
 	border-top: 3px solid #B30838;
 	padding: 10px 0;
 }
-	nav ul {
+	.top-menu ul {
 		display: flex;
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
-		nav ul li {
+		.top-menu ul li {
 			flex-grow: 1;
 			text-align: center;
 		}
