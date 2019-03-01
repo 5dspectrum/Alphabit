@@ -151,6 +151,9 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	border-top: 3px solid #B30838;
 	padding: 10px 0;
 }
+	.top-menu .glyphicon {
+		display: none;
+	}
 	.top-menu div ul {
 		display: flex;
 		list-style: none;
@@ -171,8 +174,31 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 /* @MEDIA QUERIES */
 @media ( max-width: 480px ) {
 	.top-menu {
+		background-color: rgba( 0, 0, 0, 0.8 );
+		color: #fff;
 		display: none;
+		height: 100%;
+		font-size: 30px;
+		padding-top: 60px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
 	}
+		.top-menu .glyphicon {
+			display: block;
+			left: 23px;
+			position: absolute;
+			top: 30px;
+		}
+			.top-menu div ul {
+				display: block;
+			}
+				.top-menu div ul li a {
+					color: #fff;
+					display: block;
+					margin-bottom: 15px;
+				}
 }
 
 @media (min-width: 990px) {
