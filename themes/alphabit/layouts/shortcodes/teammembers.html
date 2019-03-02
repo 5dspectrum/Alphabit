@@ -1,0 +1,51 @@
+<section class="members" id="members">
+	<div class="content container">
+		<div class="home-members">
+			<h2>TEAM MEMBERS</h2>
+			<hr class="whiteline"/>
+			<div class="members-wrap">
+				<div class="flexslider">
+				  <ul class="slides">
+				  {{ range .Site.Data.teammembers }}
+					<li>{{ .Site.BaseURL }}
+					  <div>
+						<a href="#" data-value="{}" data-name="{{ .name }}" data-position="{{ .position }}" data-email="{{ .email }}" data-about="{{ .about }}" data-image="{{ $.Site.BaseURL }}{{ .image }}" class="member-showInfo">
+							<img src="{{ $.Site.BaseURL }}{{ .image }}" class="img-circle"/>
+							<h4 class="name">{{ .name }}</h4>
+							<h5 class="position">{{ .position | safeHTML }}</h5>
+						</a>
+					  </div>
+					</li>
+				  {{ end }}
+				  </ul>
+				</div>
+			</div>
+			
+
+
+			
+		</div>
+	</div>
+	
+	<div class="member-info" id="member-info">
+		<a class="close-member" href="#"></a>
+		<div class="container content">
+			<div class="member-info-img">
+				<div class="img-wrap">
+					<img src="{{ .Site.BaseURL }}images/liam-robertson.jpg" class="info-picture img-circle img-responsive"/>
+				</div>
+				<div class="name-wrap">
+					<h3><span class="info-name">LIAM ROBERTSON</span></h3>
+					<p><span class="info-position">Chief Executive Officer</span></p>
+				</div>
+			</div>
+			<div class="info-about">
+				<p>Chartered Financial Analyst (CFA) and Chartered Alternative Investment Analyst (CAIA), Liam holds a degree in Economics from the University of Newcastle-Upon-Tyne. He also holds a Masters in Finance from the University of Durham.</p>
+				
+				<p>Starting as a Portfolio Manager for UK-based IFA company, Liam quickly moved up to Analyst at a London-based Fund of Investment Trusts. </p>
+				
+				<p>He has sat on the Yen desk for Light Peak Capital and a Hedge Fund, successfully trading Euros, Yen and Dollar Yen. After successfully increasing his book ve-fold in 18 months, he moved back to private client wealth management.</p>
+			</div>	
+		</div>
+	</div>
+</section>

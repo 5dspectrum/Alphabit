@@ -26,7 +26,7 @@
 		<div>
 			<div class="topbar hidden-xs">
 				<div class="clearfix">
-					
+					<div class="pull-left hidden-xs hidden-md">Digital Asset Management</div>
 					
 				</div>
 			</div>
@@ -34,7 +34,7 @@
 				<div class="container text-center">
 					<a href="https://5dspectrum.github.io/Alphabit/"><img src="https://5dspectrum.github.io/Alphabit/images/alphabit-logo.png" alt="" class="site-logo"/></a>
 					
-					<button id="m-m-open" type="button" class="navbar-toggle visible-xs visible-sm pull-left">
+					<button type="button" class="navbar-toggle visible-xs visible-sm pull-left">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -42,36 +42,36 @@
 				</div>
 			</div>
 			
-			
-
-			<div class="top-menu">
-				<span id="m-m-close" class="glyphicon glyphicon-remove-circle"></span>
-				<div class="container">
-					<ul>
-						<li>
-							<a href="https://5dspectrum.github.io/Alphabit/#about" class="scrollto">ABOUT</a>
-						</li>
-						<li>
-							<a href="https://5dspectrum.github.io/Alphabit/#members" class="scrollto">TEAM</a>
-						</li>
-						<li>
-							<a href="https://5dspectrum.github.io/Alphabit/#investments" class="scrollto">INVESTMENTS</a>
-						</li>
-						<li>
-							<a href="https://5dspectrum.github.io/Alphabit/#contact" class="scrollto">CONTACT</a>
-						</li>
-						
-					</ul>
+			<nav class="main-nav">
+				<div class="main-menu">
+					<a class="close-nav" href="#"><span class="glyphicon glyphicon-remove-circle"></span></a>
+					<div class="container">
+						<ul>
+							<li><a href="https://5dspectrum.github.io/Alphabit/" class="scrollto">ABOUT</a></li>
+							<li><a href="https://5dspectrum.github.io/Alphabit/team" class="scrollto">TEAM</a></li>
+							<li><a href="https://5dspectrum.github.io/Alphabit/investments" class="scrollto">INVESTMENTS</a></li>
+							<li><script type="text/javascript" language="javascript"> { e = "gdqp@s7iCsrg8.qVdb"; k = "t9yoXErUBOSFqlncvK8GDpHu5JhPjA27dYmaMLRiwVI0CN316ZbWksTQfge4xz"; shift = e.length; link = ""; for (i=0; i<e.length; i++) { if (k.indexOf(e.charAt(i))==-1) { ltr = e.charAt(i); link += (ltr); } else { ltr = (k.indexOf(e.charAt(i))-shift+k.length) % k.length; link += (k.charAt(ltr)) } }; document.write("<a href='mailto:"+link+"?Subject=Website%20inquiry&body=Dear%20Alphabit,\n'>CONTACT</a>") } </script> </li>
+							<li><a href="https://5dspectrum.github.io/Alphabit/invest" class="scrollto">INVEST</a></li>
+							<li class="mobile-only"><a href="https://5dspectrum.github.io/Alphabit/disclaimers/" >DISCLAIMERS</a></li>
+							<li class="mobile-only"><a href="https://5dspectrum.github.io/Alphabit/risk-warning/">RISK WARNING</a></li>
+						</ul>
+					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
 	</header>
 
 
-	<div class="main-content">
-		<div class="container">
-			<h1>Risk Warning</h1>
-		<p><strong>Important information</strong></p>
+
+<div class="main-content">
+
+	
+
+<p><DIV class="container"></p>
+
+<h1 id="risk-warning">Risk Warning</h1>
+
+<p><strong>Important information</strong></p>
 
 <ol>
     <li>Past performance is not a guide to future performance, nor a reliable indicator of future results or performance. </li>
@@ -84,8 +84,10 @@
     <li> An investment in a Fund is only suitable for investors who are capable of evaluating the merits and risks of such an investment and who have sufficient resources to be able to bear any losses which may arise from such an investment (which may be equal to the whole amount invested). Such an investment should be regarded as long term in nature and complementary to existing investments in a range of other financial assets and should not form a major part of an investment portfolio. </li>
 </ol>
 
-		</div>
-	</div>
+<p></DIV></p>
+
+
+</div>
 
 
 
@@ -120,23 +122,6 @@
 	<script src="https://5dspectrum.github.io/Alphabit/js/scrollreveal.min.js"></script>
 	<script src="https://5dspectrum.github.io/Alphabit/js/scripts.js"></script>
 	<script>
-		if(window.location.hash != ""){
-			var target = window.location.hash,
-			target = target.replace('#', '');
-
-			
-			window.location.hash = "";
-
-			
-			
-			$(window).on('load', function() {
-				if (target) {
-					$('html, body').animate({
-						scrollTop: $("#" + target).offset().top - 140
-					}, 700, 'swing', function () {});
-				}
-			});
-		}
 	
 	
 		$(window).load(function() {
@@ -161,11 +146,6 @@
 		
 		$(document).ready(function(){
 			$("body.home nav a.scrollto").click(function(event){
-				event.preventDefault();
-				
-				var pos = parseInt($(this.hash).offset().top);
-				
-				$('html,body').animate({scrollTop:pos-140}, 500);
 				if($(window).width() < 768){
 					$('.close-nav').click();
 				}
@@ -179,7 +159,6 @@
 				e.preventDefault();
 				
 				$("#member-info").hide().fadeIn(200,function(){$('html,body').animate({scrollTop:parseInt($('#member-info').offset().top - 100)}, 500);});
-				
 				$('.member-info .info-picture').attr('src',t.data('image'));
 				$('.member-info .info-name').html(t.data('name'));
 				$('.member-info .info-position').html(t.data('position'));
@@ -190,13 +169,7 @@
 			})
 		})
 		
-		$( '#m-m-close' ).click( () => {
-			$( '.top-menu' ).slideUp();
-		} );
-
-		$( '#m-m-open' ).click( () => {
-			$( '.top-menu' ).slideDown();
-		} );
+		
 	</script>
 </body>
 </html>

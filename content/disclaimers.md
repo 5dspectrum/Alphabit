@@ -6,6 +6,9 @@ draft: true
 
 
 
+<DIV class="container">
+# Disclaimer
+
 ### Website Disclaimer:
 
 This website www.alphabit.fund (the “Website”), is a website of Alphabit Limited(“AB”).
@@ -60,3 +63,4 @@ Please refer to the Privacy and Cookie Policy which is a part of these Terms and
 #### 13. GOVERNING LAW
 These Terms are subject to English law and to the exclusive jurisdiction of the English courts.
 
+</DIV>

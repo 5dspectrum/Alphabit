@@ -5,6 +5,9 @@ draft: true
 ---
 
 
+<DIV class="container">
+# Risk Warning
+
 <strong>Important information</strong>
 
 
@@ -18,3 +21,5 @@ draft: true
 	<li> Tax legislation and the levels of relief from taxation can change at any time. Any change in the tax status of a Fund or in tax legislation could affect the value of the investments held by the Fund or its ability to provide returns to its investors. </li>
 	<li> An investment in a Fund is only suitable for investors who are capable of evaluating the merits and risks of such an investment and who have sufficient resources to be able to bear any losses which may arise from such an investment (which may be equal to the whole amount invested). Such an investment should be regarded as long term in nature and complementary to existing investments in a range of other financial assets and should not form a major part of an investment portfolio. </li>
 </ol>
+
+</DIV>

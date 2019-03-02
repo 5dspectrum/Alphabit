@@ -30,23 +30,6 @@
 	<script src="{{ .Site.BaseURL }}js/scrollreveal.min.js"></script>
 	<script src="{{ .Site.BaseURL }}js/scripts.js"></script>
 	<script>
-		if(window.location.hash != ""){
-			var target = window.location.hash,
-			target = target.replace('#', '');
-
-			// delete hash so the page won't scroll to it
-			window.location.hash = "";
-
-			// now whenever you are ready do whatever you want
-			// (in this case I use jQuery to scroll to the tag after the page has loaded)
-			$(window).on('load', function() {
-				if (target) {
-					$('html, body').animate({
-						scrollTop: $("#" + target).offset().top - 140
-					}, 700, 'swing', function () {});
-				}
-			});
-		}
 	
 	
 		$(window).load(function() {
@@ -71,11 +54,6 @@
 		
 		$(document).ready(function(){
 			$("body.home nav a.scrollto").click(function(event){
-				event.preventDefault();
-				
-				var pos = parseInt($(this.hash).offset().top);
-				
-				$('html,body').animate({scrollTop:pos-140}, 500);
 				if($(window).width() < 768){
 					$('.close-nav').click();
 				}
@@ -89,7 +67,6 @@
 				e.preventDefault();
 				
 				$("#member-info").hide().fadeIn(200,function(){$('html,body').animate({scrollTop:parseInt($('#member-info').offset().top - 100)}, 500);});
-				
 				$('.member-info .info-picture').attr('src',t.data('image'));
 				$('.member-info .info-name').html(t.data('name'));
 				$('.member-info .info-position').html(t.data('position'));
@@ -100,13 +77,7 @@
 			})
 		})
 		
-		$( '#m-m-close' ).click( () => {
-			$( '.top-menu' ).slideUp();
-		} );
-
-		$( '#m-m-open' ).click( () => {
-			$( '.top-menu' ).slideDown();
-		} );
+		
 	</script>
 </body>
 </html>

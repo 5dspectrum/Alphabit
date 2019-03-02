@@ -112,7 +112,7 @@ section.members > .content {overflow:hidden;}
 .member-info .close-member {display:inline-block;position:absolute;top:4%;right:5%;padding:10px 7px;background-color:transparent;font-size:40px;line-height:10px;text-align:center;vertical-align:middle;color:#000;font-weight:normal;padding:4px;background:url(../images/icon-close-black.png) no-repeat center center;width:40px;height:40px;}
 .member-info .close-member:hover,.member-info .close-member:focus {text-decoration:none;color:#FFF;border-color:#FFF;transition:all 0.5s;transform:scale(1.1)}
 
-.investment-process {max-width:1200px;margin:0 auto;}
+.investment-process {margin:0 auto;padding:50px 0;background-color:#D3D6D5}
 .investment-process .panel{background-color:transparent;border:0;box-shadow:none;}
 .investment-process .panel-heading{background-color:transparent;border:0;padding:0 0px;margin:0 50px;max-width:900px;margin:0 auto;display:block;}
 .investment-process .panel-body {border:0;background-color:#FFF;margin:30px 0;padding:10px;position:relative;}
@@ -126,6 +126,12 @@ section.members > .content {overflow:hidden;}
 .investment-process .close-panel {display:inline-block;position:absolute;top:20px;right:20px;padding:10px 7px;background-color:transparent;font-size:40px;line-height:10px;text-align:center;vertical-align:middle;background:url(../images/icon-close-red.png) no-repeat center center;width:40px;height:40px;}
 .investment-process .close-panel:hover {text-decoration:none;color:#000;border-color:#000;transform:scale(1.1);transition:all 0.5s}
 
+
+.alphabit-form {margin:0 auto;padding-top:20px;}
+.alphabit-form .form-control {border-radius:0;font-size:18px;color:#333;}
+.alphabit-form input.form-control {padding:12px 20px;height:auto;}
+.alphabit-form select.form-control {padding:12px 20px;height:auto;}
+.alphabit-form button[type="submit"]{font-size:18px;margin:0 auto;background-color:#B20738;color:#FFF;border:0;padding:10px 35px;display:block;width:200px;border-radius:0;margin-top:20px;}
 
 /* FOOTER */
 footer#main-footer {margin-top:10px;position:relative}
@@ -141,76 +147,17 @@ footer .footer-bottom a{color:#908D89}
 footer .backtotop {position:fixed;bottom:15px;right:25px;display:none;}
 footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 
-/* AA CSS */
-.member-info .name-wrap .info-position {
-	font-size: 20px;
-	font-weight: normal;
-}
-
-.top-menu {
-	border-top: 3px solid #B30838;
-	padding: 10px 0;
-}
-	.top-menu .glyphicon {
-		display: none;
-	}
-	.top-menu div ul {
-		display: flex;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-		.top-menu div ul li {
-			flex-grow: 1;
-			text-align: center;
-		}
-			.top-menu div ul li a {
-				color: #000;
-			}
 
 /* UTIL */
 .mobile-only {display:block !important;}
 
 /* @MEDIA QUERIES */
-@media ( max-width: 480px ) {
-	.top-menu {
-		background-color: rgba( 0, 0, 0, 0.8 );
-		color: #fff;
-		display: none;
-		height: 100%;
-		font-size: 30px;
-		padding-top: 60px;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		z-index: 1;
-	}
-		.top-menu .glyphicon {
-			display: block;
-			left: 23px;
-			position: absolute;
-			top: 30px;
-		}
-			.top-menu div ul {
-				display: block;
-			}
-				.top-menu div ul li a {
-					color: #fff;
-					display: block;
-					margin-bottom: 15px;
-				}
-}
-
 @media (min-width: 990px) {
 	body.fixed-header {padding-top:180px;}
 	section.content {padding: 40px 0; }
 	.navbar-toggle {display:none;}
 	nav.main-nav {margin-bottom:10px;display:block;}
-	nav .main-menu {
-		border-top:solid 2px #B30838;
-		padding:5px 0;
-		text-align:center;
-	}
+	nav .main-menu {border-top:solid 1px #B30838;padding:10px 0;text-align:center;}
 	nav .main-menu ul{padding:0;margin:0;}
 	nav .main-menu ul li{list-style:none;display:inline-block;width:24%;text-align:center;}
 	nav .main-menu ul li a{color:#15191E;}
@@ -234,9 +181,10 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 }
 
 @media (min-width: 990px) {
-	nav.main-nav {margin-bottom:10px;display:block;}
+	nav.main-nav {margin-bottom:0;display:block;}
+	nav .main-menu {border-top:solid 1px #B30838;padding:10px 0;text-align:center;}
 	nav .main-menu ul{padding:0;margin:0;}
-	nav .main-menu ul li{list-style:none;display:inline-block;width:24%;text-align:center;}
+	nav .main-menu ul li{list-style:none;display:inline-block;width:19.5%;text-align:center;}
 	nav .main-menu ul li a{color:#15191E;}
 	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
 	
