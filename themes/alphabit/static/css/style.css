@@ -64,7 +64,7 @@ section.howwedo h2 {font-size:34px;color:#000;text-shadow: -1px 0 #B30838, 0 1px
 section.management {}
 section.members {background-color:#000;color:#FFF;}
 section.members {color:#000;text-align:left;letter-spacing:1px;}
-section.members > .content {overflow:hidden;}
+section.members > .content {overflow:visible;}
 .investment-logos img {display:block;vertical-align:middle;max-height:80px;max-width:100%;margin:0 auto 20px;clear:both;}
 
 
