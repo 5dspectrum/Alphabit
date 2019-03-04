@@ -43,7 +43,7 @@ draft: true
 		</p>
 
 		<!-- {{< investform >}} -->
-		<a href="mailto:invest@alphabit.fund" target="_blank">
+		<a href="mailto:invest@alphabit.fund?Subject=INVEST">
 			invest@alphabit.fund
 		</a>
 		</div>
