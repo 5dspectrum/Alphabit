@@ -16,7 +16,10 @@ draft: true
 		<p>Our strategy deploys a combination of Manual trading (Long and Short), Algorithmic trading, and early investment into blockchain based start-ups for tokens and equity.</p>
 		<p>If you feel you meet the requirements to invest in the fund we would love to hear from you.  Please fill in the form below and we will get back to you.</p>
 
-		{{< investform >}}
+		<!-- {{< investform >}} -->
+		<a href="mailto:invest@alphabit.fund">
+			invest@alphabit.fund
+		</a>
 		</div>
 	</div>
 </div>
