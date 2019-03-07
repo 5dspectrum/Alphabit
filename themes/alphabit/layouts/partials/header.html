@@ -37,7 +37,7 @@
 				</div>
 			</div>
 
-			{{ if or ( ne .Title "Alphabit Fund Website" ) }}
+			{{ if and ( ne .Title "Alphabit Fund Website" ) ( ne .Title "Transformative Power of Blockchain and Decentralization | Alphabit Fund" ) }}
 				<div class="logo-wrap">
 					<div class="container text-center">
 						<a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/alphabit-logo.png" alt="" class="site-logo"/></a>					
@@ -56,7 +56,7 @@
 					<a class="close-nav" href="#"><span class="glyphicon glyphicon-remove-circle"></span></a>
 					<div class="container">
 						<ul>
-							<li><a href="{{ .Site.BaseURL }}" class="scrollto">ABOUT</a></li>
+							<li><a href="{{ .Site.BaseURL }}about" class="scrollto">ABOUT</a></li>
 							<li><a href="{{ .Site.BaseURL }}team" class="scrollto">TEAM</a></li>
 							<li><a href="{{ .Site.BaseURL }}investments" class="scrollto">INVESTMENTS</a></li>
 							<li><script type="text/javascript" language="javascript"> { e = "gdqp@s7iCsrg8.qVdb"; k = "t9yoXErUBOSFqlncvK8GDpHu5JhPjA27dYmaMLRiwVI0CN316ZbWksTQfge4xz"; shift = e.length; link = ""; for (i=0; i<e.length; i++) { if (k.indexOf(e.charAt(i))==-1) { ltr = e.charAt(i); link += (ltr); } else { ltr = (k.indexOf(e.charAt(i))-shift+k.length) % k.length; link += (k.charAt(ltr)) } }; document.write("<a href='mailto:"+link+"?Subject=Website%20inquiry&body=Dear%20Alphabit,\n'>CONTACT</a>") } </script> </li>

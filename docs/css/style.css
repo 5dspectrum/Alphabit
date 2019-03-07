@@ -163,6 +163,7 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 
 #philosophy {
 	background-color: #000;
+	border-top: 2px solid #B30838;
 }
 	#philosophy .home-philosophy, #philosophy .home-philosophy h2 {
 		color: #fff;
