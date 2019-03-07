@@ -28,7 +28,10 @@ p {margin-bottom:25px;}
 .navbar-toggle {margin-top:15px;margin-bottom:0;margin-right:0;}
 .navbar-toggle:hover {transition:all 1200ms;border:solid 1px #000;box-shadow:0 0 6px rgba(0,0,0,0.7);}
 .navbar-toggle > span:first-child {margin-top:0;}
-nav.main-nav {margin-bottom:10px;display:none;}
+nav.main-nav {
+	display:none;
+	margin-bottom:10px;
+}
 .fixed-header #main-header {display:block;}
 .main-nav .close-nav {display:none;}
 .main-banner > video {display:block;width:100%;height:auto;margin:0;border:0;padding:0;height:100%}
@@ -158,6 +161,13 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	display: table;
 }
 
+#philosophy {
+	background-color: #000;
+}
+	#philosophy .home-philosophy, #philosophy .home-philosophy h2 {
+		color: #fff;
+	}
+
 .swg-investments-logos .item {
 	float: left;
 	padding: 30px;
@@ -176,10 +186,17 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	section.content {padding: 40px 0; }
 	.navbar-toggle {display:none;}
 	nav.main-nav {margin-bottom:10px;display:block;}
-	nav .main-menu {border-top:solid 1px #B30838;padding:10px 0;text-align:center;}
+	nav .main-menu {
+		background-color: #000;
+		border-top:solid 1px #B30838;
+		padding:10px 0;
+		text-align:center;
+	}
 	nav .main-menu ul{padding:0;margin:0;}
 	nav .main-menu ul li{list-style:none;display:inline-block;width:24%;text-align:center;}
-	nav .main-menu ul li a{color:#15191E;}
+	nav .main-menu ul li a {
+		color:#fff;
+	}
 	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
 	footer .footer-bottom {}
 
@@ -204,7 +221,6 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	nav .main-menu {border-top:solid 1px #B30838;padding:10px 0;text-align:center;}
 	nav .main-menu ul{padding:0;margin:0;}
 	nav .main-menu ul li{list-style:none;display:inline-block;width:19.5%;text-align:center;}
-	nav .main-menu ul li a{color:#15191E;}
 	nav .main-menu ul li a:hover,nav .main-menu ul li a:focus{color:#B30838;text-decoration:none;}
 	
 	.member-info .member-info-img .img-wrap {width:30%;display:inline-block;vertical-align:middle;text-align:left;}

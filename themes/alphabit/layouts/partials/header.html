@@ -3,10 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Alphabit Digital Currency Fund's experienced investors produce higher returns with lower volatility than Bitcoin. Built on Blockchain technology, Alphabit is a decentralized currency system using blended investment strategies generating excess returns over the Bitcoin market return.">
-	<meta name="keywords" content="Alphabit Fund, alphabit limited, digital currency, cryptocurrency, Bitcoin, Investment strategy, blockchain, currency investors">
 
-	<title>Alphabit Digital Currency Fund | Higher Returns with Lower Volatility than Bitcoin</title>
+	{{ if ( eq .Title "Alphabit Fund Website" ) }}
+		<title>Alphabit Fund | Digital Asset Management</title>
+		<meta name="description" content="Alphabit Fund is a crypto-asset investment company who specialise in actively trading cryptocurrency markets.">
+		<meta name="keywords" content="Alphabit Fund, alphabit limited, digital currency, cryptocurrency, Bitcoin, Investment strategy, blockchain, currency investors">
+	{{ else }}
+		<title>{{ .Title }}</title>
+		<meta name="description" content="{{ .Description }}">
+		<meta name="keywords" content="{{ .Keywords }}">
+	{{ end }}
   
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -30,17 +36,20 @@
 					<!-- <div class="pull-right"><a class="top-callto" href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></div> -->
 				</div>
 			</div>
-			<div class="logo-wrap">
-				<div class="container text-center">
-					<a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/alphabit-logo.png" alt="" class="site-logo"/></a>
-					
-					<button type="button" class="navbar-toggle visible-xs visible-sm pull-left">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+
+			{{ if or ( ne .Title "Alphabit Fund Website" ) }}
+				<div class="logo-wrap">
+					<div class="container text-center">
+						<a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/alphabit-logo.png" alt="" class="site-logo"/></a>					
+						
+						<button type="button" class="navbar-toggle visible-xs visible-sm pull-left">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
 				</div>
-			</div>
+			{{ end }}
 			
 			<nav class="main-nav">
 				<div class="main-menu">
