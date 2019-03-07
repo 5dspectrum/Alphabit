@@ -158,11 +158,18 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	display: table;
 }
 
-.vcenter {
-	display: inline-block;
-    float: none;
-    vertical-align: middle;
+.swg-investments-logos .item {
+	float: left;
+	padding: 30px;
+	position: relative;
+	width: 25%;
 }
+	.swg-investments-logos .item img {
+		position: absolute;
+		top: 50%;
+		transform: translateY( -50% );
+		width: 100%;
+	}
 
 /* @MEDIA QUERIES */
 @media (min-width: 990px) {
