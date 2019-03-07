@@ -168,9 +168,6 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	.swg-investments-logos .item img {
 		max-height: 200px;
 		max-width: 100%;
-		position: absolute;
-		top: 50%;
-		transform: translateY( -50% );
 	}
 
 /* @MEDIA QUERIES */
