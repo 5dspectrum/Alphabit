@@ -161,6 +161,10 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	display: table;
 }
 
+.logo-wrap {
+	display: none;
+}
+
 #philosophy {
 	background-color: #000;
 	border-top: 2px solid #B30838;
@@ -181,7 +185,22 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 		max-width: 100%;
 	}
 
+.swg-logo {
+	text-align: center;
+	padding: 30px 0;
+}
+
 /* @MEDIA QUERIES */
+@media ( max-width: 480px ) {
+	.logo-wrap {
+		display: block;
+	}
+
+	.swg-logo {
+		display: none;
+	}
+}
+
 @media (min-width: 990px) {
 	body.fixed-header {padding-top:180px;}
 	section.content {padding: 40px 0; }
