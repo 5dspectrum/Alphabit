@@ -163,6 +163,9 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	margin-bottom: 30px;
 	width: 33.33%;
 }
+	.swg-investments-logos .item img {
+		width: 100%;
+	}
 
 /* @MEDIA QUERIES */
 @media (min-width: 990px) {
