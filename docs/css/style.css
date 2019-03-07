@@ -158,15 +158,6 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	display: table;
 }
 
-.swg-investments-logos .item {
-	float: left;
-	padding: 30px;
-	width: 25%;
-}
-	.swg-investments-logos .item img {
-		width: 100%;
-	}
-
 /* @MEDIA QUERIES */
 @media (min-width: 990px) {
 	body.fixed-header {padding-top:180px;}
