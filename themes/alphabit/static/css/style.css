@@ -151,6 +151,19 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 /* UTIL */
 .mobile-only {display:block !important;}
 
+/* AA CSS */
+.clearfix::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.swg-investments-logos .item {
+	float: left;
+	margin-bottom: 30px;
+	width: 33.33%;
+}
+
 /* @MEDIA QUERIES */
 @media (min-width: 990px) {
 	body.fixed-header {padding-top:180px;}
