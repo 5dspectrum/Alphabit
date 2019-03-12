@@ -196,6 +196,10 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 		display: block;
 	}
 
+	.swg-investments-logos .item {
+		width: 50%;
+	}
+
 	.swg-logo {
 		display: none;
 	}
