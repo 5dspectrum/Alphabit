@@ -172,6 +172,13 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 	#philosophy .home-philosophy, #philosophy .home-philosophy h2 {
 		color: #fff;
 	}
+	#philosophy .home-philosophy ul {
+		list-style: none;
+	}
+		#philosophy .home-philosophy ul span {
+			color: #B30838;
+			margin-right: 15px;
+		}
 
 .swg-investments-logos .item {
 	float: left;
