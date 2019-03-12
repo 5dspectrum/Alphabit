@@ -76,8 +76,19 @@
 		"mobile_number": "000.000.0000",
 		"office_number": "000.000.0000",
 		"about" : "<p>Michael is one of the most visible investors in the digital asset sector. In 2013, he co-founded BitAngels, the world’s first angel network for digital currency investments. <br/><br/>Terpin is considered the top marketer in the digital currency sector, having worked with more than 100 blockchain companies and coins as an advisor or through his agency, Transform Group. <br/><br/>Terpin is also an investor and advisor to many blockchain, media and technology companies, including GoCoin, Purse.io and ShapeShift.</p>"
-    }
+    },
 	
-	
+	{
+		"id": 6,
+		"name": "Richard Simpson",
+		"position": "Head of Research",
+		"email": "n/a",
+		"image": "images/rchard-simpson-research-alphabit-fund.jpg",
+		"image_gray": "images/rchard-simpson-research-alphabit-fund.jpg",
+		"url": "#",
+		"mobile_number": "000.000.0000",
+		"office_number": "000.000.0000",
+		"about": "<p>Before joining the team, Richard worked as a Solutions Architect for a leading UK IT security company.<br /><br /> Richard has designed and delivered multi-million pound IT security solutions to public sector clients.<br /><br /> Helping to deliver not only infrastructure but also solution messages to the clients' customer base, ensuring customer satisfaction.</p>"
+	}
 	
 ]
