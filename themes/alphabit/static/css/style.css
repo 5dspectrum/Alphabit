@@ -179,6 +179,9 @@ footer .copyright {padding:10px 0 10px;clear:both;color:#908D89;font-size:14px;}
 			color: #B30838;
 			margin-right: 15px;
 		}
+	#philosophy .home-philosophy a {
+		color: #B30838;
+	}
 
 .swg-investments-logos .item {
 	float: left;
